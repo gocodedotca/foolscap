@@ -3,6 +3,51 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.4</title>
+            <pubDate>Wed, 28 Oct 2026 15:57:17 -0300</pubDate>
+            <sparkle:version>97</sparkle:version>
+            <sparkle:shortVersionString>0.9.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Footnotes in a pop-over
+
+Choose **Insert › Footnote** (⌥⌘E) and the note's number goes into the text, with a pop-over beside it for the note's words. Press Return or Escape, or click back in the text, and carry on writing. A new note you close without writing anything is taken out again.
+
+- **To change a note**, double-click its number, or select it and choose **Insert › Edit Footnote…** (⌥⌘E).
+- **To remove a note**, click the trash can in its pop-over.
+- **The pop-over's bar** has what a note can hold: bold, italic, underline and highlight, and in a project that uses them, citations and cross-references. **Edit › Undo** takes back what you wrote in one step.
+
+A new project now starts with its footnotes hidden, so each note shows just its number. Hold the pointer over a number to read the note, or choose **View › Show Footnotes** to see them all in the text. To show or hide one note, Option-double-click its number.
+
+## Endnotes
+
+You can now have your notes printed as endnotes. Choose **Project › Manuscript Format…** and pick one under **Notes**:
+
+- **Footnotes, at the foot of each page**, as before.
+- **Endnotes, after each chapter**: each chapter's notes are listed under "Notes" at its end.
+- **Endnotes, at the end of the book** (or paper): every note is listed together on the new **Notes** page in the Back Matter. Choosing this adds the page before the works cited. Drag it to put the notes elsewhere.
+
+You still write every note as a footnote. Your choice is for every export and printout but Markdown. Choosing MLA in Manuscript Format picks endnotes, as MLA has them, and APA picks footnotes.
+
+## Numbering notes
+
+Manuscript Format can also set how notes are numbered:
+
+- **Numbered:** 1, 2, 3; i, ii, iii; a, b, c; or \*, †, ‡.
+- **Start again:** never, at each chapter, or, for footnotes, on each page.
+
+The editor shows notes numbered the same way. It can't show pages, though, so with **On each page** it starts again at each chapter instead.
+
+## Fixes
+
+- **Cancel** now closes the citation, cross-reference and image pop-overs.
+
+### Your projects
+
+Earlier versions of Foolscap can still open a project saved with this version, but they ignore these settings and print its notes as footnotes, numbered 1, 2, 3.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.4/Foolscap-0.9.4.zip" length="15200508" type="application/octet-stream" sparkle:edSignature="Jzp9CUnHxK4L1MQxMbKgyTbjno/Qp04gSQGRzNBD+vPvedJ7A+4T/XGbPaUGRocOgi4d4dWL0z9u1cAoATS1Cw=="/>
+        </item>
+        <item>
             <title>0.9.3</title>
             <pubDate>Wed, 28 Oct 2026 13:34:02 -0300</pubDate>
             <sparkle:version>93</sparkle:version>
