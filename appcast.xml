@@ -3,6 +3,34 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.3</title>
+            <pubDate>Wed, 28 Oct 2026 13:34:02 -0300</pubDate>
+            <sparkle:version>93</sparkle:version>
+            <sparkle:shortVersionString>0.9.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Front Matter and Back Matter
+
+Everything that comes before and after your manuscript now has a place of its own in the binder: **Front Matter** above the Manuscript and **Back Matter** below it. The pages are in the order the book prints them. Drag them to change the order, and delete one to leave it out.
+
+- **Pages Foolscap makes for you**, such as the Cover, Title Page, Copyright, Contents and References. Choose one to change what it says: the cover image, the title and subtitle, the copyright lines. These used to be in Book Details.
+- **Pages you write**, such as a dedication, acknowledgements or an about the author page. These are texts like any other. A Dedication is centered on its page.
+- **A paper's pages.** In APA, MLA and Chicago, the Front Matter holds the Title Page (MLA's Heading) and the Abstract, with its keywords above its text. The Back Matter holds the References, Works Cited or Bibliography, wherever you put it.
+
+Click **+** on either heading to add a page. A page with nothing on it yet is dimmed and left out. To hide both sections, choose **View › Tools › Front and Back Matter**.
+
+The Reading Copy and Other Formats exports have a new **Front and back matter** checkbox. Markdown puts the title, author and copyright in its metadata.
+
+**Book Details** is now **Project › Paperback Settings…**, which keeps just the paperback's trim size, typeface and paper. A paper doesn't show it.
+
+### Your projects
+
+When you open a project made with an earlier Foolscap, it moves into the new sections. Its title page, copyright page and cover become pages, with an empty Cover to fill in if it had none. Its dedication becomes a Dedication text. The notes it used as front and back matter, and a paper's abstract, move in too. Your exports come out as they did before.
+
+Once it's saved, Foolscap 0.9.2 and earlier can't open the project.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.3/Foolscap-0.9.3.zip" length="15030083" type="application/octet-stream" sparkle:edSignature="giNcsrgJ8G0f7ZUFPG3SLJxP7soEqi7OtXY9KG/yJnGaJE4Vs7GwQc/z53vvgVfAIOHs+PKtIT2uMAdZHAjdBg=="/>
+        </item>
+        <item>
             <title>0.9.2</title>
             <pubDate>Wed, 28 Oct 2026 12:13:23 -0300</pubDate>
             <sparkle:version>91</sparkle:version>
