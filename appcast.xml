@@ -3,6 +3,15 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.2</title>
+            <pubDate>Wed, 28 Oct 2026 12:13:23 -0300</pubDate>
+            <sparkle:version>91</sparkle:version>
+            <sparkle:shortVersionString>0.9.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Show hide features based on document type]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.2/Foolscap-0.9.2.zip" length="14884472" type="application/octet-stream" sparkle:edSignature="977+hNiucYQmmPTxSEJ696l7gEFxDK2jQylH+h+MxkJJf2pe3NaUgPwtjsb27drJ7Io5FT6JPCn2YeWJ2InbCQ=="/>
+        </item>
+        <item>
             <title>0.9.1</title>
             <pubDate>Wed, 28 Oct 2026 10:50:16 -0300</pubDate>
             <sparkle:version>89</sparkle:version>
