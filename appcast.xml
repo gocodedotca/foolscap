@@ -3,6 +3,34 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.6</title>
+            <pubDate>Wed, 28 Oct 2026 19:15:14 -0300</pubDate>
+            <sparkle:version>105</sparkle:version>
+            <sparkle:shortVersionString>0.9.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## All the pages at a glance
+
+**View › Page Preview** (⌥⌘P) now opens on all the pages, set out in rows, as many to a row as fit. You can see the shape of the whole book at once: where chapters open, where full-page images fall, which pages run short. A paperback's facing pages stay together in pairs. A scene of only a page or two is shown as large as the window allows, as before.
+
+The rows fit themselves to the window again when you make it wider or narrower.
+
+## A page up close
+
+**Double-click a page** to look at it closely, or double-tap it with two fingers on a trackpad. The pointer over the pages is a magnifying glass to remind you.
+
+- **The page is shown at its real size**, or larger if the pages were small, with the pages before and after it above and below. A paperback's page has its facing page beside it.
+- **The bar says where you are**: "Page 12 of 240", or "Pages 12–13 of 240" in a paperback.
+- **To go back to all the pages**, click **All Pages** in the bar, double-click again, press Esc, or choose **View › Zoom to Fit** (⌘9). Choosing another layout, or something else to preview, also goes back. With all the pages showing, Esc leaves Page Preview, as before.
+
+**View › Zoom In**, **Zoom Out** and **Actual Size**, and pinching on a trackpad, still work in either view.
+
+## Fonts you can see before you choose
+
+The format bar's font menu now shows each font's name in the font itself, so you can see how it looks before you choose it. Fonts of symbols, such as Wingdings, and fonts for other alphabets are named in the system font. The menu's button still shows the chosen font's name in the system font, as the rest of the bar does.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.6/Foolscap-0.9.6.zip" length="15388291" type="application/octet-stream" sparkle:edSignature="0s8xXST3+p+Vel/a7Wt29Wy8sRoodZ9z1rKCpWupQkS847VFkH5gHZsvh+CPwg6dteUdx39cN9Pmf9KcTSo4CA=="/>
+        </item>
+        <item>
             <title>0.9.5</title>
             <pubDate>Wed, 28 Oct 2026 17:26:06 -0300</pubDate>
             <sparkle:version>100</sparkle:version>
