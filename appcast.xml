@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Foolscap</title>
+        <item>
+            <title>0.9.1</title>
+            <pubDate>Wed, 28 Oct 2026 10:50:16 -0300</pubDate>
+            <sparkle:version>89</sparkle:version>
+            <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Foolscap updates itself
+
+Foolscap now looks for updates once a day and offers to install them, with a note like this one saying what's new. You can also choose **Foolscap › Check for Updates…** at any time.
+
+To change how often it looks, or to have updates installed when you quit, open **Foolscap › Settings…** and choose **Updates**.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.1/Foolscap-0.9.1.zip" length="14825084" type="application/octet-stream" sparkle:edSignature="hcscvlTrT+e6XK8nFg/JMT2E027rloveDFveAKaBoaMS/k5E45rr7mJNc1SBRgZTigkWYeEy/sN/0CdyZACJCg=="/>
+        </item>
+    </channel>
+</rss>
