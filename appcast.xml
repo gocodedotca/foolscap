@@ -3,6 +3,64 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.5</title>
+            <pubDate>Wed, 28 Oct 2026 17:26:06 -0300</pubDate>
+            <sparkle:version>100</sparkle:version>
+            <sparkle:shortVersionString>0.9.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Lists of figures and tables
+
+Two new pages for the Front Matter: **List of Figures** and **List of Tables**. Click **+** on the Front Matter's heading to add one. Each goes after the Contents and lists every captioned figure or table with its number, caption and page: "Figure 2.1. Map of the valley ... 34".
+
+A figure is an image with a caption under it. A table is listed when it has a caption: type a line just under it and choose **Format › Caption** (⌥⌘7). In the editor, each list page shows what it will list. Click an entry to go to that figure or table.
+
+The lists are offered while **View › Tools › Cross-References and Numbering** is on. A list with nothing in it is dimmed and left out.
+
+## A Contents that goes deeper
+
+The Contents page has a new **Lists** pop-up menu:
+
+- **Chapters**: parts and chapters, as before.
+- **Chapters and Sections**: the sections in each chapter too, and headings you type one level below a chapter's title.
+- **Down to Subheadings**: one level further.
+
+## Page numbers in more exports
+
+The Contents and the lists now show page numbers wherever there are pages:
+
+- **Paperback PDF**, as before, now with the lists.
+- **Reading Copy PDF**, which now includes the Contents and lists.
+- **A paper's PDF**, and printing.
+- **Word**, as Word's own table of contents and table of figures. They come filled in with Foolscap's page numbers. Choose **Update Field** in Word for Word's own numbers, which may differ a little.
+
+In an **ebook**, the lists are pages of links, and readers' apps can find them. **Markdown** asks Pandoc to make the Contents and lists. **RTF** leaves them out, as it has no page numbers.
+
+## Chicago Thesis
+
+**Project › Manuscript Format…** has a new format, **Chicago Thesis (Turabian 9)**, for a thesis or dissertation:
+
+- **A thesis title page**: your institution at the top, the title, a statement of what it's submitted for, your department, "by" and your name, and the place and month at the foot. The Title Page has new **Institution**, **Statement**, **Department** and **Place** fields.
+- **Front matter numbered in roman numerals** at the foot of the page (ii, iii, iv), and the text from 1, at the top right.
+- **Each chapter starts a new page.**
+
+Its headings, notes and bibliography are the same as Chicago Student Paper's.
+
+## Two new templates
+
+- **Thesis**: the Chicago Thesis format, with a Title Page, Abstract, Contents, List of Figures, List of Tables and Acknowledgments; an Introduction, two chapters and a Conclusion; and an Appendix and Bibliography. Change the degree in its statement to yours.
+- **Scholarly Book**: the Non-Fiction Book, with Chicago notes and bibliography, figures and tables numbered by chapter, and lists of them after the Contents.
+
+## A new About window
+
+**Foolscap › About Foolscap** now shows the version and build, with buttons for the acknowledgements and the Foolscap website.
+
+### Your projects
+
+Foolscap 0.9.4 can still open a project saved with this version. But it leaves out the lists of figures and tables, sets a thesis out as a fiction manuscript, and shows its Contents as Chapters. If you save the project in 0.9.4, these settings are lost.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.5/Foolscap-0.9.5.zip" length="15363890" type="application/octet-stream" sparkle:edSignature="wTMAXj/BBq7OZdI27jzt60Wo0TMdyJMKfNzd0nthiQByvUXShS8tkGPNQ5SUodBJR0C0ioIOAQmuS94GFoWtCA=="/>
+        </item>
+        <item>
             <title>0.9.4</title>
             <pubDate>Wed, 28 Oct 2026 15:57:17 -0300</pubDate>
             <sparkle:version>97</sparkle:version>
