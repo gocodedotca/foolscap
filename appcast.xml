@@ -3,6 +3,31 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.7</title>
+            <pubDate>Thu, 29 Oct 2026 11:58:29 -0300</pubDate>
+            <sparkle:version>107</sparkle:version>
+            <sparkle:shortVersionString>0.9.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Pictures in a line
+
+A small picture, such as the button in "click the ⚙ button", can now sit among the words of a sentence instead of on a line of its own.
+
+- **Insert, drag or paste a picture under 100 pixels tall among words**, and it goes in the line. Rich text pasted from another app keeps its small pictures in their lines.
+- **Click any picture and choose In Line or Own Line** to move it. A larger picture inserted mid-sentence goes on a line of its own; In Line puts it back among the words. A picture in a line has a **Size** in ems, from 0.5 to 2: one em is the size of the type around it, so an icon in a heading is larger than one in the text.
+- **Its middle lines up with the middle of the lowercase letters**, in the editor and in every export: reading copies, manuscripts, paperbacks, Word, EPUB, RTF and Markdown. In an ebook it grows and shrinks with the reader's type.
+- **It isn't a figure**: no caption or number, though it still has a description for readers who can't see it.
+- **Imports keep them.** A picture in a sentence in a Word, RTF or Scrivener document comes in where it was, if it's no taller than twice the type. Scrivener's Tutorial now keeps its toolbar icons in their sentences instead of splitting the paragraphs round them.
+
+## Paperbacks
+
+- **A book with no front matter starts on its first page.** A paperback whose Front Matter is empty or hidden, as a project imported from Scrivener or a document can be, opened on two blank pages. Its text now starts on page 1.
+- **The Export sheet says when a paperback has no title page.** KDP and IngramSpark both ask for one. Add it with the **+** button in the Front Matter.
+- **The paperback and the ebook have their own ISBNs.** The Copyright page in the Front Matter has a **Paperback ISBN** and an **Ebook ISBN**, as the two editions need different ones and a Kindle ebook needs none. Each edition's copyright page shows only its own. An ISBN you'd already entered is now the paperback's; if it was your ebook's, move it to **Ebook ISBN**.
+- **Fewer lines about low-resolution pictures.** The Export sheet gives one line for a scene's pictures, however many there are, with the lowest resolution among them, rather than a line for each.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.7/Foolscap-0.9.7.zip" length="15454400" type="application/octet-stream" sparkle:edSignature="OCxk6hytyZLnxyWiOeCjTNTVee5iBIDfCtvUoZeIEins5xhX1wke6OFiL1fO0saQsXP2+MYeUceEX+zlDnt+Aw=="/>
+        </item>
+        <item>
             <title>0.9.6</title>
             <pubDate>Wed, 28 Oct 2026 19:15:14 -0300</pubDate>
             <sparkle:version>105</sparkle:version>
