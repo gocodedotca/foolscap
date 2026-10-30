@@ -3,6 +3,23 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.11</title>
+            <pubDate>Fri, 30 Oct 2026 16:52:43 -0300</pubDate>
+            <sparkle:version>130</sparkle:version>
+            <sparkle:shortVersionString>0.9.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Test versions expire
+
+From this version on, each test version of Foolscap expires about three months after it's made, so old copies don't stay in use. Updating before then keeps everything as it is.
+
+- **Two weeks before**, the status bar at the bottom of a project's window says when, as in "Expires 28 January". Click it for more, or to check for updates.
+- **Once expired**, Foolscap says so when it opens, and the status bar says **Read-only**. Your projects still open, and you can read, search, print and export them, and copy from them. Changes aren't saved and new projects can't be made. Nothing in your projects is changed.
+- **Foolscap › Check for Updates…** gets the current version, which saves as usual. The alert and the status bar both have a button for it.
+- **Help**: Test versions, under Updates on the Settings page.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.11/Foolscap-0.9.11.zip" length="18218817" type="application/octet-stream" sparkle:edSignature="q2VJTqeviVeNcMHZajsV1zg9Q9gSgBLlCJTefXK9QaSKIyDZ+PQB5NdNr2On+cF07jkxIP0S7QGpkd6bcm1SAA=="/>
+        </item>
+        <item>
             <title>0.9.10</title>
             <pubDate>Fri, 30 Oct 2026 16:29:32 -0300</pubDate>
             <sparkle:version>127</sparkle:version>
