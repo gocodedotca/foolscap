@@ -3,6 +3,27 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.10</title>
+            <pubDate>Fri, 30 Oct 2026 16:29:32 -0300</pubDate>
+            <sparkle:version>127</sparkle:version>
+            <sparkle:shortVersionString>0.9.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Spelling and grammar
+
+- **Settings › Writing Aids has a Spelling and Grammar section.** **Check spelling while typing** underlines misspelled words as you write. **Check grammar with spelling** has the Mac's grammar checker underline what it questions too; right-click an underlined word to see why. Spelling starts on and grammar off.
+- **These choices now apply to all your writing and are remembered.** They cover the scenes, notes, footnotes and tables in every project, and Edit › Spelling and Grammar's **Check Spelling While Typing** and **Check Grammar With Spelling** change the same settings. Before, those menu items changed only the text you were in, until it was opened again.
+- In fiction, the grammar checker also questions dialect in dialogue, such as "it don't matter", so you may want it off while you draft.
+
+## Smaller changes
+
+- **Commented words are easier to see.** Their dotted underline is now a thicker, deeper orange, in both light and dark mode.
+- **Revise › Marks shows which kind is marked**, with a tick, as the Revision tab does. Choose the ticked kind again to turn the marks off.
+- **The sidebar narrows again.** Before, the search results, Check Names or Revision Report panels could keep the sidebar too wide to drag narrower, even while they were hidden.
+- **Help**: Checking grammar is a new section on the Spelling page, and Settings explains Spelling and Grammar.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.10/Foolscap-0.9.10.zip" length="18206673" type="application/octet-stream" sparkle:edSignature="jPVLMbKRsr1fx+P5jKsCAJcEDpFMXhREv3HA0VBbA52EO2GWLSTxRit4FV19NUu55xXycmumXrX7+to0skYyBA=="/>
+        </item>
+        <item>
             <title>0.9.9</title>
             <pubDate>Fri, 30 Oct 2026 14:54:27 -0300</pubDate>
             <sparkle:version>121</sparkle:version>
