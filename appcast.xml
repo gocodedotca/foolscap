@@ -3,6 +3,98 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.9</title>
+            <pubDate>Fri, 30 Oct 2026 14:54:27 -0300</pubDate>
+            <sparkle:version>121</sparkle:version>
+            <sparkle:shortVersionString>0.9.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Point of view
+
+Say whose eyes each scene is seen through, and see the balance of a book told by several people.
+
+- **The inspector's Synopsis & Notes tab has a Point of View pop-up menu**, under When. It offers the characters the scene mentions first, under **In This Scene**, then your other characters, then **New Character…**, which adds an entry to the Story Bible's Characters and makes it the point of view. Foolscap never chooses one for you.
+- **Project › Point of View**, and **Point of View** when you Control-click scenes in the binder, on the corkboard or on the timeline, set it for every scene chosen. Choose a chapter to set all its scenes; the inspector shows the name when they share one and **Mixed** when they don't.
+- **Cards show it**: on the corkboard in the card's top line, before the day and status, and on the timeline before the chapter.
+- **Who's Where** on the timeline gives a scene told through a character's eyes a solid mark in their lane; the scenes they're only in have an outlined one.
+- **The Mentions tab**, on a character, says how many scenes and words are from their point of view, "Point of view in 14 scenes · 38,400 words", with an eye beside each of those scenes.
+- **Book Shape colors by Point of View**: a color for each, with each one's scenes and share of the book's words under the chart, "Maren 14 scenes · 42%".
+- **Find in Project has a Point of View pop-up menu.** Choose a character with nothing typed to list their scenes in book order, each with its synopsis; **No Point of View** lists the scenes with none.
+- **With VoiceOver**, cards, Book Shape's bars and the Who's Where lanes say whose point of view each scene is.
+- **From Scrivener**: File › New Project from Document… brings a Scrivener project's points of view across, where they're kept in a label renamed POV, Point of View or Viewpoint, or in a custom metadata field with one of those names. Each becomes a character in the Story Bible, matched by name or added.
+- Points of view are for you, not your exports. They're offered where a project shows the Story Bible, and an older Foolscap opens the project but drops them if it saves it.
+- **Help**: Whose point of view a scene is, and Following a point of view, on the Story Bible page.
+
+## Revision aids
+
+- **Revise › Sentence Lengths** shows the scene's sentence chart under the text, as wide as the pane, or click **Show Under Text** below the chart in the Revision tab. Each sentence has its own bar, a dashed line marks the scene's average, and the bar for the sentence you're in is in your accent color. Hold the pointer over a bar to see the sentence's number, words and opening; click it to select the sentence. It follows your changes as you write, each pane has its own, and **Done** hides it.
+- **Book Shape's Revision Pass coloring** now shows a scene where only a few words were cut, as a small outline; hold the pointer over the bar for how many were added and cut.
+
+## Menus
+
+The menus were rearranged in 0.9.8, so commands are where you'd look for them. The menu bar now reads Foolscap, File, Edit, Insert, Format, View, Go, Project, Revise, Window and Help.
+
+- **A new Revise menu** gathers revising: **Start Revision Pass…**, **End Revision Pass**, **Revision Report**, **Watch List…**, **Sentence Lengths**, the **Marks** (once View › Revision Highlights) with **Next Mark** (⌃⌘G) and **Previous Mark** (⇧⌃⌘G), and **Check Names** (⌃⌘N).
+- **Project › Tools** shows and hides a project's tools; it was View › Tools.
+- **Edit › Spelling and Grammar** now has **Project Dictionary…** and **Spelling Language**, which were in the Project menu.
+- **Project › Rename** and **Project › Split at Scene Breaks** are new, and **View › Editor › Open in Other Pane** opens what's chosen in the binder in the other pane.
+- **Rename and Duplicate are named for what's chosen**: "Duplicate Scene", "Rename Character", and so on, in the Project menu and the binder's.
+
+## Your work and privacy
+
+- **Comments stay out of submissions.** On the Export sheet's Manuscript Format tab, **Include comments** now starts off and has its own setting. Turning comments on for an editor's copy under Other Formats no longer sends them to an agent. Exported comments are signed with your byline, not the Mac account's name.
+- **Foolscap says when a backup fails.** The status bar shows **Not backed up**. If the backup folder you chose can't be reached (an unplugged drive, or Dropbox not running yet), it shows **Backup folder missing**. Click either for the reason, **Try Again** or **Backup Settings**. Until your folder is back, backups go to the default folder, and Settings › Backups says so.
+- **File › Backups › Restore from Backup… really restores.** **Restore** first backs the project up as it is, then puts the backup in its place, keeping the project's file and its backups. **Open as Copy** opens the backup alongside, as before.
+- **Restore finds older backups.** It looks in the last five folders you chose and in the default folder. A copy made with Save As, Duplicate or Open as Copy lists the original's backups up to when the copy was made. When there are none to show, it says why instead of being grayed out.
+- **Big pastes don't count as a day's writing.** A single change of 250 words or more isn't counted as written today. That covers a paste, a drop, a cut, and undoing any of them. Progress shows only what you wrote, and the status bar tells you when words added this way weren't counted.
+
+## Undo, printing and keys
+
+- **⌘Z in the text undoes changes to the book too.** That means merges, moves, Move to Trash, and changes of status, day or point of view, undone in order with your typing. You no longer have to click in the binder first.
+- **⌘P prints the whole manuscript** until you choose to print something else. File › Print… names what it will print: "Print Whole Manuscript…", "Print This Scene…".
+- **⌘] on body text makes it a block quote**, and ⌘[ turns it back into body text, as in Pages. In lists they still indent and outdent.
+- **⌘K splits a scene** while you're writing in it, as in Scrivener. In notes, or on a link, ⌘K is still Link…, and ⌥⌘K still splits.
+- **Take Snapshot is now ⌥⌘S.** ⌘5 and ⌘6 now go to the Front Matter and the Back Matter; ⌘1–⌘4 are unchanged.
+- **File › Export… (⇧⌘E)** opens the Export sheet at the tab you used last. Before, the shortcut moved to whichever export you used last.
+- **The binder, corkboard and timeline use the same keys**, following the Finder. Return renames (on the timeline, it opens), ⌘↓ opens, and ⌘⌫ moves to the Trash. Plain Delete no longer trashes a card.
+- **Earlier Day and Later Day (⌥⌘[ and ⌥⌘]) and Duplicate (⌘D)** no longer act on the scene while you type in it. They work from the binder, corkboard and timeline, and from the menus.
+
+## Names and views
+
+- **Revision highlights are now Marks**, so they aren't mistaken for Format › Highlight. You'll find Revise › Marks, Next Mark, Previous Mark and Turn Off Marks. A mark is tinted and underlined in its color.
+- **Two inspector tabs are renamed**: Notes is now **Synopsis & Notes**, and Story Bible is now **Mentions**. The Revision tab has a new icon.
+- **Revision Report and Check Names** no longer have "…", since neither opens a dialog. A project search now shows its results over them, and they come back when you clear it. Choosing a mark no longer switches the inspector to the Revision tab.
+- **Toolbar buttons follow what's chosen**: "New Note", "New Character", "New Section". The Pages button is now **Page Preview**, matching the View menu.
+- **Back to Editor** replaces Done on the timeline, Page Preview and Book Shape, and the format bar is hidden while those are showing.
+- **The Aa button at the right of the format bar** opens Editor Display: font, size, line spacing and zoom. These change how text looks while you write in every project, and never what you export.
+- **Project search can be put away** with its **Done** button, or Esc in the search or replace field.
+- **Hiding a tool says what goes with it.** Each item in Project › Tools explains what it covers in its tooltip. When you hide one, the status bar says what went with it and that nothing is deleted; click the message to show it again. For example, hiding the Story Bible also hides points of view and the timeline's characters. The Export sheet tells you when hidden Front and Back Matter leave pages out, with a **Show Them** button.
+
+## Settings where you'd look
+
+- **Project › Book Settings…** holds what applies to every export and printout: the title, whether the texts are scenes or sections, footnotes or endnotes and how they're numbered, and the paper size. **Manuscript Format…** keeps what's only for a submission: the format, header, END and contact details.
+- **Each project can have its own paper size**, set in Book Settings or with File › Page Setup…. Page Setup now says that it uses only the paper size. Settings › Export's Paper size applies to projects that haven't chosen one. So a writer who uses A4 can keep one project in US Letter for an American agent.
+- **Settings › Writing Aids** is a new tab for Apple Intelligence and the revision aids. **Language tagging** has moved there and is now called **Recognize parts of speech**. Settings › Writer now says where your legal name and byline appear.
+- **Settings › Backups** says **Keep weekly backups**, which is what it sets.
+
+## Exporting and opening
+
+- **Export part of the book.** The Include pop-up on Reading Copy, Manuscript Format and Other Formats offers **Whole Manuscript**, **The Beginning** up to a chapter you choose (for an agent who asks for the first three chapters), or the items chosen in the binder. It shows the words and pages to export. Part of the book has no END, and its file is named like "Title, to Chapter 3".
+- **The status bar confirms an export**: "Exported “Title”. Click to show it in the Finder."
+- **Save as Template… can leave out the Manuscript.** Book two of a series can start with the Story Bible, notes and settings but none of book one's text.
+- **File › Open…, the Finder and the Dock** now open Word, RTF, OpenDocument, Markdown and text files and Scrivener projects. Each becomes a new project, as with File › New Project from Document…. The New Project window has a **From Document…** button. Its **Open Existing…** button no longer closes the window before you've chosen a project.
+
+## Comments, the timeline and smaller things
+
+- **Every comment in a chapter**: choose a chapter, folder or the Manuscript, and the Comments tab lists the comments in all its scenes, under each scene's title. Double-click one, or Control-click it and choose **Go to Comment**, to open the scene at that comment.
+- **Leave Off Timeline** keeps a scene such as a preface off the timeline. Find it in Project › Day, or in a card's shortcut menu. The timeline's "1 Left Off" menu puts it back.
+- **Timeline cards show two-letter initials**, which differ where two characters' initials would be the same. An empty Day 0 now shows its date. The start date is shown the same way as the column headers, with a calendar to choose it.
+- **New projects show their footnotes.** While comment or bookmark marks are hidden, the status bar says **Marks hidden**; click it to show them.
+- **Smaller fixes**: an empty synopsis shows its hint in gray, so it doesn't look filled in. The Progress chart starts at 0, and "Goal: None words" is gone. The Revision tab shows a count for Overused Words. Goals explains that a deadline needs a manuscript goal first. The binder's selected row keeps its word count.
+- **Help** is updated throughout. There's a new section, Book Settings, on the Manuscript format page, and Settings has a section on Writing Aids.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.9/Foolscap-0.9.9.zip" length="17176131" type="application/octet-stream" sparkle:edSignature="5ti5kFArBzGCM7T6aTyCyka3Iw0wjoJVaZmCzihzoiHk/LNkEdTFn1qrgpGLKyslDTcywZhTfqrWElOOIJ9yCA=="/>
+        </item>
+        <item>
             <title>0.9.8</title>
             <pubDate>Fri, 30 Oct 2026 09:57:46 -0300</pubDate>
             <sparkle:version>116</sparkle:version>
