@@ -3,6 +3,91 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.8</title>
+            <pubDate>Fri, 30 Oct 2026 09:57:46 -0300</pubDate>
+            <sparkle:version>116</sparkle:version>
+            <sparkle:shortVersionString>0.9.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Revision aids
+
+The first of Foolscap's revision aids: they find the words you lean on and mark them for you to judge. They never change or suggest a word.
+
+- **View › Revision Highlights** tints, in the text, a kind of thing to look at: **Echoes** (a word used again close by), **Overused Words**, **Repeated Phrases**, your **Watch List**, **Long Sentences**, and in English, **Adverbs**, **Passive Voice**, **Filter Verbs** and **Dialogue Tags**.
+- **A highlight bar** under the editor's header shows the kind on show, what it looks for and where you are among its marks ("2 of 12"), with arrows to go from one to the next (also ⌃⌘G and ⇧⌃⌘G), a pop-up to switch kinds and Done to turn it off.
+- **Hold the pointer over a marked word** to see why it's marked ("Echo: “treat” is used again 41 words later."), or Control-click it for the same note, Next Highlight and Turn Off Highlights. With the insertion point in an echo, both its uses are tinted more strongly.
+- **A Revision tab in the inspector** (⌃⌘7) lists every kind with how many the scene or chapter chosen has. Click one to highlight it; it opens to say what it looks for, list what it found and hold its settings, such as how near an echo is and how long a long sentence. Click a found word or sentence to go to it, and again for the next. Under Overused Words, a badge such as "8×" means the scene uses a word eight times as often as the book does.
+- **Project › Revision Report…** shows the whole book's most-used words, repeated phrases and watch-list words in place of the binder, each with the places it's written.
+- **Project › Watch List…** keeps your own crutch words and phrases, one a line; "seem*" matches any ending. English projects start with a short list: "just", "really", "very" and others.
+- **Ignore “word” as an Echo**: Control-click an echo that's meant, in the text or the Revision tab, and it's no longer marked in this project. **Mark Again** brings it back.
+- **Settings › Writer › Language tagging** chooses whether the Mac's on-device language tagging helps find them; it's on unless you turn it off.
+- **With VoiceOver**, each mark is said with why it's marked, and the rotor moves between them. With Differentiate Without Color, they're underlined too.
+- **Help**: a new page, Revision aids, under Revising.
+
+## Revision passes
+
+See what you've changed in a draft, and put back what you cut.
+
+- **Project › Start Revision Pass…** names a pass ("Draft 2"), gives it a color and, if you like, a cut goal of a number of words or a share such as 10%. Foolscap keeps a snapshot of each scene in the Manuscript as it is, "Before Draft 2". **Project › End Revision Pass** ends it. Both can be undone.
+- **View › Revision Highlights › Changes** tints the words you've added during the pass in its color, and puts a small mark where you cut words. Hold the pointer over the mark to see what you cut, or click it to see the words and **Put Back** to put them back as they were.
+- **All Passes** tints each word in the color of the pass that added it, for the last four passes.
+- **The Revision tab** shows the pass: its dates, the words added and cut across the Manuscript, and how far you are toward the cut goal, with Changes listing each change in the scene.
+- **Project › Revision Report… › Changes** lists every scene the pass changed, made or removed, with its words added and cut, and each change, a cut shown as it read before.
+- **The Snapshots tab** marks each pass's starting snapshot with a dot in its color, and warns before you delete one. **Show Changes in Text**, on any snapshot's shortcut menu, marks what changed since it in the text itself.
+- **Splitting and merging scenes during a pass** keeps their changes: each part has its share of the starting snapshot.
+- **With VoiceOver**, each cut mark is a button that says what was cut, with Show Cut Words and Put Back.
+- **Help**: Revision passes, on the Revision aids page.
+
+## The book's shape
+
+- **View › Book Shape** shows the whole Manuscript in place of the text: a bar for each scene in book order, grouped by chapter, its height its words. Color the bars by **Status**, **Chapter**, **Dialogue** or the **Revision Pass** (the words added, and those cut as an outline). A thinner row under them shows each scene's dialogue, or in non-fiction, its sentences' average length. Hover over a bar for the scene's title, words and synopsis; click it to choose the scene, double-click to open it.
+- **The Revision tab's Shape** shows how much of the scene is dialogue, how many sentences it has and how long they are on average, with a chart of its sentences' lengths in order. A line under the bars marks five or more sentences in a row much the same length; click a bar to select its sentence.
+- **Help**: The book's shape, and the shape of a scene, on the Revision aids page.
+
+## VoiceOver
+
+The start of a pass to make Foolscap work with VoiceOver and the keyboard alone.
+
+- **VoiceOver says what each object in the text is.** A picture is read as an image with its description, or "no description" when it has none; a footnote as "footnote 1" where its marker is and "end of footnote" after its words; a page break and a scene break by name, not as three asterisks. A hidden footnote is read as only its number.
+- **Tables can be read and edited with VoiceOver.** A table is read as "table, 3 rows, 2 columns", and VoiceOver can go into it row by row; each cell is named by its row and, in a table with a header row, its column's heading.
+- **VoiceOver's rotor moves through the text** by headings, footnotes, comments, bookmarks, images and tables, listing each by its words, so you can jump to one as you'd glance down the page.
+- **Comments and bookmarks are said on their words**, as annotations: "Comment: Check the date", or the bookmark's name. A citation or cross-reference is read as the words it shows, with "not found" when it's red.
+- **Corkboard cards are read as cards**: each by its title, status, day and synopsis, with actions to open, rename and move it.
+- **The timeline says which card you've chosen** as you move with the arrow keys, and its Who's Where lanes read as a line per character: the days, scenes and places they're in.
+- **Page Preview's pages are named**, "Page 3 of 12", each with a way to see it up close and back, and the bar's pop-ups are named too.
+- **The status bar's messages are spoken** as they show, such as "Snapshot taken".
+- **A split editor's panes are named**, "Left pane" and "Right pane" (or top and bottom), so you can tell which you're in.
+- **Progress's chart is read a day at a time**, with each day's words and the daily goal. Before, VoiceOver read it as spans of two days.
+- **More is named**: a picture shown on its own, by its description; the full-page picture's bar; the Notes' synopsis; the Snapshots list; the References window's list, button and fields; and the Help buttons, by what they open.
+- **Open Quickly says the result you've chosen** as you press ↑ and ↓, and the first one once you stop typing: "Chapter 3, Manuscript, 1 of 12".
+- **Find in Project says what it found**, "65 matches in 8 scenes", once you stop typing, and how many it replaced; each item in the results says its number of matches.
+- **Import's outline says what each row is**, "Chapter 1, chapter, 2,400 words", rather than its icon's name.
+- **Goals: the words-a-day field has moved.** Under Each day, choose **A number of words** and the field shows under it. Before, it was inside its choice, where VoiceOver couldn't reach it.
+- **The sheets' titles are headings**, and their Help buttons, fields and lists are named.
+- **The picture pop-over's controls are named** by the labels beside them, and its sliders say their width or size.
+
+## The keyboard
+
+- **Bookmarks can be reordered from the keyboard.** Choose one and press **⌃⌘↑** or **⌃⌘↓** (Project › Move), or Control-click it for Move Up and Move Down.
+- **The Story Bible's picture can be chosen from the keyboard.** With keyboard navigation on, Tab to it and press Space; Delete removes it.
+- **Project › Move › To Front Matter, To Manuscript, To Back Matter, To Story Bible and To Notes** move what's chosen in the binder or on the corkboard to the end of that section, as dragging it there does.
+- **View › Inspector › Comments (⌃⌘4) and Bookmarks (⌃⌘5) put you in the list**, as Notes already did. Press ↑ and ↓ to go from one to the next, and **Esc** to go back to the text.
+- **The arrow keys go into a table.** Before, a cell could be reached only by clicking. Coming to a table from the text above it, or from just before it, goes into its first cell; from below, into its last row; from just after it, into its last cell. They already left the table at its edges.
+- **Project › Move works on the corkboard's cards.** With a card selected, ⌃⌘↑ and ⌃⌘↓ move it earlier or later, ⌃⌘→ puts it in the chapter card before it, and ⌃⌘← takes it out of the chapter. Before, they moved the chapter the board belongs to.
+
+## Help
+
+- **A new Accessibility page** gathers what VoiceOver says in the text and its rotors, a keyboard way for everything done by dragging, and the display settings Foolscap follows. Choose Help › Foolscap Help and look under Settings and shortcuts.
+
+## Display settings
+
+- **Reduce Motion** stops typewriter scrolling gliding and Focus Mode sliding the sidebar and inspector shut.
+- **Increase Contrast** makes the tints on comments, footnotes, citations and bookmarked passages stronger.
+- **Increase Contrast and Differentiate Without Color** mark the active pane of a split editor with a line, not just a tint; with Differentiate Without Color, a citation or cross-reference that isn't found has a dashed outline.
+- **Snapshot comparisons are easier to read**: added words are underlined on green, in the text's own color, instead of in green.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.8/Foolscap-0.9.8.zip" length="16674066" type="application/octet-stream" sparkle:edSignature="XBD+Za8uqlgHUeiBShKplcN4pDC/fKA9zGJWVMX78SXMvIh5H3tFO5w2fVrf6svhqzurRckqXEO5XMQZZ0bcAA=="/>
+        </item>
+        <item>
             <title>0.9.7</title>
             <pubDate>Thu, 29 Oct 2026 11:58:29 -0300</pubDate>
             <sparkle:version>107</sparkle:version>
