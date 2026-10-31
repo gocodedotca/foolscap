@@ -3,6 +3,24 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.12</title>
+            <pubDate>Sat, 31 Oct 2026 12:57:40 -0300</pubDate>
+            <sparkle:version>136</sparkle:version>
+            <sparkle:shortVersionString>0.9.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Getting ready for iCloud
+
+This version starts the work on keeping a project in iCloud Drive and writing in it on more than one Mac. Projects are now saved a little differently, ready for it.
+
+- **Keep projects in iCloud Drive.** Settings has a new General tab: set New projects to iCloud Drive, and the save panel opens in iCloud Drive's Foolscap folder. Move a project you have already with File › Move To…. While iCloud is uploading or downloading a project, or can't sync it, the status bar says so, and a project that isn't on this Mac yet downloads in a window before it opens. See Help › Keeping a project in iCloud.
+
+- **Each Mac remembers its own place.** A project opens where you left off on the Mac you're using: the same scene, place in the text, split editor and open folders. On a Mac it's new to, it opens where you last left it on any Mac.
+- **A project open on two Macs keeps up.** If your Macs share a project through iCloud Drive or Dropbox, changes saved on one now come into the other as they arrive, without reopening it, and the status bar says which Mac they came from. When both Macs changed the same paragraph of a scene, your text stays and the other Mac's is kept as a snapshot, and Foolscap tells you. See Help › Getting started › Working on more than one Mac.
+- **Earlier versions can't open projects saved by this one.** Once you save a project in this version, an earlier Foolscap says it was made by a newer version. Update Foolscap on each of your Macs before opening your projects there.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.12/Foolscap-0.9.12.zip" length="19037150" type="application/octet-stream" sparkle:edSignature="OmCAlyrjyQizcFZ+O6i5RdK7UYiN2PZEENtQWlswHOhA/cWqdrNdwaP7KyHFXScM2ku0gADkmuLASeu52QjmCA=="/>
+        </item>
+        <item>
             <title>0.9.11</title>
             <pubDate>Fri, 30 Oct 2026 16:52:43 -0300</pubDate>
             <sparkle:version>130</sparkle:version>
