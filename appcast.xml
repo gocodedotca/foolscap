@@ -3,6 +3,31 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.14</title>
+            <pubDate>Tue, 03 Nov 2026 14:34:13 -0400</pubDate>
+            <sparkle:version>153</sparkle:version>
+            <sparkle:shortVersionString>0.9.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- **Your name and contact details follow you.** If you're signed in to iCloud, what's in Settings › Writer is now the same on every Mac you use: change it on one and the others follow. The newest change wins, and your other settings stay with each Mac. If you already have different details on two Macs, the first to open this version sets them for both, so check Settings › Writer afterwards.
+- **Footnotes show as numbers, and a click opens them.** A note's words no longer appear among the text, so View › Show Footnotes and Hide Footnotes are gone. Click a note's number to read or change it, or hold the pointer over it to read it. Find still looks in footnotes: when it finds words in one, the note opens with them chosen. A snapshot still shows each note's words, so that you can see what's changed in them. Your notes are saved and exported as they always were.
+
+## Help
+
+- **Sending a paperback to the printer.** The Paperback PDF page has a new section, Sending it to the printer, for when the PDF is made: get the ISBN first and export again so the copyright page shows it, give KDP or IngramSpark the same trim size, paper and bleed as Paperback Settings, make the cover to the size the Export sheet gives, then check every page in KDP's Print Previewer and order a proof copy. Choose Help › Foolscap Help and look under Paperback PDF.
+
+## Fixes
+
+- **Writing Tools no longer damages footnotes.** Rewriting text with a footnote in it could change the footnote's words and turn it into ordinary text, showing OBJ boxes. Now footnotes leave the text you've chosen while Writing Tools works, so a sentence is rewritten as a whole, and each goes back after the word it followed, or at the end of the sentence if that word has gone. Images, tables, citations, cross-references, breaks and words with a comment or bookmark are left as they are, and if a change would still damage one, Foolscap takes it back and says so.
+- **The inspector's chosen tab shows its icon again.** On macOS 27, the tab chosen at the top of the inspector was a plain blue block with no icon, because the icon was drawn in the same blue as the tab's background. It now shows in white, so you can see which tab is open. Nothing changes on macOS 26.
+- **Restoring from a backup now always saves what it restored.** Restoring just after making changes could show the backup's words in the window while the project on disk kept the words being replaced, so they came back the next time it opened. It now saves the backup's words every time.
+- **Saving on two Macs while they can’t reach each other now works as it should.** macOS could ask which version to keep instead of Foolscap putting them together, and choosing one took the other out of the project. A scene changed on both could also lose one version with no snapshot. Foolscap now puts them together itself: the newer text stays, the older is kept as a snapshot, and an alert tells you which is which. "Not synced" also no longer flashes up while this happens.
+- **Foolscap now says when a project didn't open.** The Open window can occasionally close without passing the project on, and then nothing happened. Now an alert tells you, so you can try again.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.14/Foolscap-0.9.14.zip" length="19481198" type="application/octet-stream" sparkle:edSignature="9AJnpuw9wIwMyE8YxYZb5IcdnoLyBp34pH5H8AERBOkPyXQKo5HK6IdSSnQpT2WbNjW4gV6P9LAg//sAbQzECw=="/>
+        </item>
+        <item>
             <title>0.9.13</title>
             <pubDate>Sat, 31 Oct 2026 16:37:40 -0300</pubDate>
             <sparkle:version>138</sparkle:version>
