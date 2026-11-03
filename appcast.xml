@@ -3,6 +3,23 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.15</title>
+            <pubDate>Tue, 03 Nov 2026 15:00:44 -0400</pubDate>
+            <sparkle:version>155</sparkle:version>
+            <sparkle:shortVersionString>0.9.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- **A No AI Training page for your book.** Click + beside the Front Matter's heading and choose No AI Training to add a page saying the book isn't to be used to train generative AI. It goes after the Copyright page, starts with standard wording that you can change, and is printed under its title in every export that has the front matter. No project has it unless you add it.
+
+## Fixes
+
+- **Foolscap starts with the New Project window again.** With no project to reopen, it was showing the standard Open window instead. Open Existing… and Open Recent are in the New Project window if a project is what you're after.
+- **Add Comment and Add Bookmark are dimmed when they have nothing to mark.** With the insertion point away from any word, Add Comment still appeared in the Insert menu and the text's Control-click menu, and only made an alert sound. Add Bookmark did the same on an empty line. Both still work with nothing selected when there's a word or a paragraph to go on.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.15/Foolscap-0.9.15.zip" length="19482393" type="application/octet-stream" sparkle:edSignature="iLSaa16PXnIb+vUP//LWMk5cv3eYj2XSK8esJfe2DguWRST+4b/vF/gEYy7CR7I15czGOD9W3HJmL9UcBJ3zDg=="/>
+        </item>
+        <item>
             <title>0.9.14</title>
             <pubDate>Tue, 03 Nov 2026 14:34:13 -0400</pubDate>
             <sparkle:version>153</sparkle:version>
