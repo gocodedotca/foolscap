@@ -3,6 +3,22 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.16</title>
+            <pubDate>Wed, 04 Nov 2026 11:34:30 -0400</pubDate>
+            <sparkle:version>160</sparkle:version>
+            <sparkle:shortVersionString>0.9.16</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- **Foolscap now comes as a DMG too.** New downloads can use a disk image as well as the zip. Updates inside the app work as before.
+
+## Fixes
+
+- **VoiceOver reads the Progress tab's counts as one thing.** A count and its "words" were two stops, and now they're one: "53 words".
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.16/Foolscap-0.9.16.zip" length="19483537" type="application/octet-stream" sparkle:edSignature="sXPYNxTVVAvG1cyu1PjSX0QDH+mClhn2k7ZA7CH2ta3l3DRSRQ3nx/GZXMd4pZylI3vFALYhd5107Eza75j4Dw=="/>
+        </item>
+        <item>
             <title>0.9.15</title>
             <pubDate>Tue, 03 Nov 2026 15:00:44 -0400</pubDate>
             <sparkle:version>155</sparkle:version>
