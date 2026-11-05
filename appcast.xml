@@ -3,6 +3,38 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.19</title>
+            <pubDate>Thu, 05 Nov 2026 14:38:35 -0400</pubDate>
+            <sparkle:version>185</sparkle:version>
+            <sparkle:shortVersionString>0.9.19</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Themes
+
+- **One Theme setting replaces Page color and Corkboard.** Choose it in Foolscap › Settings… › Editor. **Ink** is a white page with a deep blue corkboard, **Paper** a cream page with a kraft brown corkboard, and **Blotter**, which is new, a pale green page with a deep green corkboard. Each has a dark form, which follows Appearance.
+- **Your colors may change when you update.** White becomes Ink, and Paper stays Paper, with its new kraft brown board. A page and a board can no longer be mixed freely, and the Quiet corkboard is gone, so a board set to Quiet now takes the theme's color.
+- **A theme colors more of the window.** With Paper and Blotter, the toolbar, the side panels, what's chosen in them, the timeline and Book Shape all follow. Ink leaves those in your Mac's own colors, as before. Printing, exports and the pages in Page Preview still stay black text on white.
+
+## Point of view
+
+- **Say how each scene is told.** The Point of View menu now offers **1st Person**, **3rd Person** and **3rd Person Limited**. 1st Person and 3rd Person Limited can name a character, in a second pop-up menu beside the first in the inspector. 3rd Person is an all-knowing narrator, and names no one.
+- **Scenes that already had a point of view are now 3rd Person Limited.** Change any told in the first person to 1st Person, and they keep their character. Scrivener imports come in the same way.
+- **It shows wherever point of view does.** A card shows the character, or how the scene is told if it names no one, and holding the pointer over it shows both. Book Shape gives scenes that name no one a color and a line of their own, and Find in Project can list the scenes told each way.
+- **Emptying the Trash** now leaves a scene told the same way when its character is deleted, naming no one.
+
+## Fixes
+
+- **On Paper, the toolbar and the New Scene bar no longer turn white over the corkboard.**
+- **Adverbs, Passive Voice, Filter Verbs and Dialogue Tags no longer stay empty for want of language data.** On a Mac without the data for the project's language, they could find nothing, with no explanation. Foolscap now asks macOS to download it when the revision aids first read the project, and reads the text again once it arrives, so they may stay empty until then. Only the data is downloaded: your text stays on your Mac, and nothing is downloaded with **Recognize parts of speech** off.
+- **Book Shape fills its pane again.** It could open squashed at the top of the editor, with the tallest bar drawn over the legend and the rest of the pane empty.
+- **A scene on its own no longer gets its name as a heading.** In Page Preview and when printing, This Scene put the scene's binder name over its text as a chapter heading in every layout, though the book never prints it. A scene named after its first words seemed to start with its first line twice. Now the first scene of a chapter opens under the chapter's heading, as it does in the book, and any other starts at the top of the page. Several scenes chosen together and This Snapshot do the same.
+- **A reading copy's first chapter starts its own page.** With front matter, Chapter One ran on under the last front matter page, in PDFs, Word and RTF, and in Page Preview. It now opens on a new page like every other chapter.
+- **A reading copy no longer starts with a blank page** when its first front matter page is one you wrote, rather than a title page.
+- **The paperback preview no longer titles scenes with the book's name.** Previewing a scene or several scenes as a paperback put the project's title over them as a chapter heading.
+- **A chapter printed alone looks as it does in the book.** A chapter in a part has its heading at the size it has in the whole manuscript, and numbered headings keep their numbers.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.19/Foolscap-0.9.19.zip" length="19954225" type="application/octet-stream" sparkle:edSignature="8XOH4VtgnJgLrL0WqvxglA8yhLNkdFtNJdGtV1R8dvuZMZvJMphLDDi6wRijW4oD6aOzzjXTWO/69HaTzCKVAg=="/>
+        </item>
+        <item>
             <title>0.9.17</title>
             <pubDate>Thu, 05 Nov 2026 10:14:58 -0400</pubDate>
             <sparkle:version>180</sparkle:version>
