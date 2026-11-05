@@ -3,6 +3,52 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.17</title>
+            <pubDate>Thu, 05 Nov 2026 10:14:58 -0400</pubDate>
+            <sparkle:version>180</sparkle:version>
+            <sparkle:shortVersionString>0.9.17</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- **Timeline dates can be BC.** For a book set in the ancient world, choose BC when you set the date of Day 1. Dates read as history books write them, such as March 15, 44 BC, with no year 0 and no weekday, and they go back as far as 4713 BC. A book set AD also gets dates for days that reach back past the year 1. A project with a BC date needs this version: an older one drops the date of Day 1.
+- **Give a scene its day by its date.** With Dates on, click the date under the day in the When row, or Set Date… for a scene with no day yet, and choose a date. The scene moves to that day, so you don't have to count the days yourself.
+- **Choosing the date of Day 1 has changed.** It now has fields for the month, day, year and era, with the calendar for dates AD, and nothing changes until you click Set.
+- **Long gaps on the timeline read in years.** A gap of a year or more between scenes now says "About 16 years later" rather than "5766 days later".
+- **The format bar steps aside on the corkboard.** It's hidden wherever there's no text to format, so a chapter's cards get its room.
+- **The format bar has an Insert menu.** A `+` takes the place of the Scene Break and Page Break buttons, with everything in the menu bar's Insert menu, footnotes and comments among them. The bar has more room, and keeps its buttons in a narrower window.
+- **The corkboard says how long the chapter is.** The status bar now gives the chapter's words beside the manuscript's.
+- **Progress says "1 word cut".** A day or a stretch that cut more than it added no longer reads "-1 word in all · -1 a day".
+- **Empty notes say what they're for.** The inspector's Notes show a prompt until you type in them.
+- **The New Project window is larger,** so every template is in view with its whole name.
+- **Scene names take two lines in the binder.** A long name wraps rather than being cut after a few words, and the sidebar opens wider. A window still at the old narrow width widens once.
+- **A scene's status takes the place of its page icon.** Every scene had the same icon; now the row shows where the scene stands. A scene with no status keeps its icon, and chapters and notes keep their marks at the end of the row.
+- **The corkboard's cards look like index cards.** A paper color, a serif title on up to two lines, a red rule, and ruled lines for the words, with the status and word count along the foot. Dark mode's cards now stand out from the board.
+- **Cards share the board's width,** with no empty strip down the side, and a card whose title is just its opening words doesn't say them twice.
+- **The corkboard is the blue of Foolscap's ink.** For a quieter board that follows the page, choose Quiet for Corkboard in Settings › Editor.
+- **With Paper, the whole window follows the page.** The toolbar and format bar turn cream with it, and the sidebar and inspector warm up to match.
+
+## Fixes
+
+- **A paperback with footnotes numbered again on each page no longer crashes.** With that setting, one footnote and more than one chapter, choosing Paperback in the page preview, opening the Paperback tab of Export or printing a paperback took the app down.
+- **Contents and lists have the right page numbers with footnotes numbered on each page.** A heading or caption near the end of a page could be listed on the page next to it, more often the more notes came before it.
+- **Edits to the title, copyright and other made pages are kept after Revert.** After Revert or Restore from Backup, those pages showed the old project, and what you changed on them was lost on saving.
+- **The inspector stays filled in after Revert.** After Revert or Restore from Backup it stayed empty until you chose another item.
+- **A damaged .bib file no longer crashes the app.** A file cut off inside a quoted value now imports what it can.
+- **Typing is smoother in long papers and theses.** With cross-references or numbered captions, renumbering waits until you pause, rather than going on every moment as you type. A second pane with the same scene, a live search, or a References, Notes or Contents page keeps up with less work too.
+- **Emptying a full Trash is much quicker,** and so is undoing it.
+- **Typing in Settings › Writer is smoother.** Open texts are redrawn, and your details sent to iCloud, when you pause.
+- **Make Full-Page Image can't change the wrong image any more.** Clicking an image in a snapshot offered it, and it acted on the scene as it is now. A snapshot's images no longer offer changes.
+- **Typing at the start of a paragraph takes that paragraph's style.** With the cursor before a bold first word, what you type now comes out bold, rather than taking the style of the end of the paragraph before.
+- **A footnote pasted with paragraph breaks stays on one line.** Some text copied from other apps could keep a break inside a note.
+- **What you're typing in a field is kept when you save, close or quit.** A synopsis, comment, title, Day or other field still being typed in was lost if you saved, closed the window or quit before leaving it. Exporting, printing and backing up now include it too, and your cursor stays where it was.
+- **Changes from your other devices no longer hold up the window.** A project with lots of images is now read in the background when another device's changes arrive, so typing carries on while they come in.
+- **A comment on a paper's run-in heading is kept in Word.** Word dropped a comment that ended in a heading set at the start of its paragraph.
+- **A thesis with only a title and a date keeps them on one page.** In a PDF the date went onto a page of its own, and in Word it stopped short of the foot of the page.
+- **Setting a date applies to what you opened it on.** Choosing another scene, or reverting, now closes the date pop-overs on the timeline and in the When row.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.17/Foolscap-0.9.17.zip" length="19729303" type="application/octet-stream" sparkle:edSignature="bjSs2e7+Dkr/2HyHKX/8Ii9ldJQkFU8VNVP3uTyBQXnFNeSOoxMKMlqqMOxb4UORoyOEUZ1BM5Wcso8kB+yVBw=="/>
+        </item>
+        <item>
             <title>0.9.16</title>
             <pubDate>Wed, 04 Nov 2026 11:34:30 -0400</pubDate>
             <sparkle:version>160</sparkle:version>
