@@ -3,6 +3,22 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.21</title>
+            <pubDate>Fri, 06 Nov 2026 13:24:50 -0400</pubDate>
+            <sparkle:version>193</sparkle:version>
+            <sparkle:shortVersionString>0.9.21</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- **Foolscap › License…, ready for when Foolscap goes on sale.** A new License tab in Foolscap › Settings… activates a license key on a Mac, and deactivates it to move it to another. One license works on up to five Macs. Test versions, numbered below 1.0, don't need a license, so nothing changes for them yet. From 1.0, Foolscap works fully for 30 days on each Mac, then opens projects read-only until a license key is entered. Please don't buy a license yet: the Buy Foolscap… button goes to the real store, and test versions don't need one.
+
+## Fixes
+
+- **VoiceOver in the Revision Report.** Each place listed under a word, phrase or scene now says which scene it's in, as holding the pointer over it does. A scene in Changes reads "120 words added, 45 cut", and the report's title is a heading, so VoiceOver's headings rotor finds it.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.21/Foolscap-0.9.21.zip" length="20308084" type="application/octet-stream" sparkle:edSignature="DKPHijW8j3ZKA2j4gk1c77YfHx6KDPe7k1+7Gf9LGm55tPAX2+WPR2+PDdM/idMzJ1xvrLasHFiS+uDZuuDpDg=="/>
+        </item>
+        <item>
             <title>0.9.20</title>
             <pubDate>Fri, 06 Nov 2026 09:13:44 -0400</pubDate>
             <sparkle:version>189</sparkle:version>
