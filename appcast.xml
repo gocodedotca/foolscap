@@ -3,6 +3,20 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.20</title>
+            <pubDate>Fri, 06 Nov 2026 09:13:44 -0400</pubDate>
+            <sparkle:version>189</sparkle:version>
+            <sparkle:shortVersionString>0.9.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Getting started
+
+- **A Welcome window the first time Foolscap opens.** It asks whether Apple Intelligence's Writing Tools and predictive text are offered while you write (Foolscap picks neither for you), and lets you choose a theme, where new projects are saved, and spelling and grammar checking. Each choice is in Foolscap › Settings… too. It shows once on each Mac, and not at all if you've used Foolscap before, here or on another device, so updating won't show it.
+- **A short tour of the project window.** After the Welcome, the first project you open points out the binder, the format bar, the status bar, the inspector, the switcher between the editor, timeline and pages, and Project › Tools. Choose Help › Show Tour Again to see it whenever you like.
+- **The Foolscap Tutorial.** Choose Help › Foolscap Tutorial for a project that teaches Foolscap by doing: a chapter each on writing, organizing, notes and goals, the Story Bible and timeline, revising, exporting, and non-fiction and papers, with a short story to try things on. It's a fresh copy each time, and isn't saved unless you choose to keep it.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.20/Foolscap-0.9.20.zip" length="20134081" type="application/octet-stream" sparkle:edSignature="zmmWhZ81bKn3hh55USEyHIxX91lSIRLqWlwYdlvw4ZeRvQFO0e5Ht0whozfbLDqlGijPlL7h0y2+6UpoY0/bAA=="/>
+        </item>
+        <item>
             <title>0.9.19</title>
             <pubDate>Thu, 05 Nov 2026 14:38:35 -0400</pubDate>
             <sparkle:version>185</sparkle:version>
