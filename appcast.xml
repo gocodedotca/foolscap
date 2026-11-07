@@ -3,6 +3,24 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.22</title>
+            <pubDate>Sat, 07 Nov 2026 17:51:07 -0400</pubDate>
+            <sparkle:version>204</sparkle:version>
+            <sparkle:shortVersionString>0.9.22</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- **The path bar can be larger or smaller.** Choose Small, Medium, Large or Extra Large for Path bar size in Foolscap › Settings… › Editor. It sets the size of the path along the top of each editor pane (Manuscript › Chapter › Scene) and of its Back and Forward buttons. Medium is how it looked before.
+- **Commented words are tinted instead of underlined.** The orange dotted underline was hard to see, so commented words now have a pale orange tint, and the comment you’re on is a deeper orange. Words you’ve highlighted keep their highlight color and get the dotted underline instead. With Differentiate without color turned on in System Settings › Accessibility › Display, commented words have both the tint and the underline.
+
+## Fixes
+
+- **Compare shows pictures and tables that changed.** Comparing a snapshot with the current text showed a picture or table you'd taken out as if it were still there. A removed picture or table is now faded and crossed out in red, and an added one is outlined in green. A picture replaced by another or resized, and a table whose contents changed, now show as the old one removed and the new one added.
+- **Snapshots show their text again.** Choosing a snapshot in the Snapshots inspector showed a blank page with the snapshot bar at the bottom, because the bar took the whole height of the editor. The snapshot's text now fills the editor, with the bar underneath. Items in the Trash had the same problem: the Put Back bar took the whole editor, so a trashed scene's text couldn't be read. That's fixed too.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.22/Foolscap-0.9.22.zip" length="20331901" type="application/octet-stream" sparkle:edSignature="sAKinj6FXdJgi2mO5RReanW3Zsklkc6AMmlA6lrO8ZZmSAKLat/zB0RndUoiXajNwxcq4zSiSW69Nr5bylnWDA=="/>
+        </item>
+        <item>
             <title>0.9.21</title>
             <pubDate>Fri, 06 Nov 2026 13:24:50 -0400</pubDate>
             <sparkle:version>193</sparkle:version>
