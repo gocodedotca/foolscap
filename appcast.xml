@@ -3,6 +3,19 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.24</title>
+            <pubDate>Sun, 08 Nov 2026 12:11:15 -0400</pubDate>
+            <sparkle:version>208</sparkle:version>
+            <sparkle:shortVersionString>0.9.24</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Fixes
+
+- **A scene's last day can follow its day straight away.** In the Inspector, “to” under When and the time of day were greyed out after typing a scene's first day until it was entered, so Tab skipped them and clicking did nothing. They now turn on as soon as a day is typed, and choosing a time of day enters the day too.
+- **The tour waits while you're away.** Switching to another window or app in the middle of the tour ended it. It now picks up where it was when you come back to the project window. Clicking elsewhere in that window still ends it.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.24/Foolscap-0.9.24.zip" length="20365334" type="application/octet-stream" sparkle:edSignature="h8CYgio5RrNAU4goeKzPRGY7sTwXQqhhb1OI9POuQg0esEJKYEoI975aQmDyEJNDpnzSoSpPhsK36PWx9co1BA=="/>
+        </item>
+        <item>
             <title>0.9.23</title>
             <pubDate>Sat, 07 Nov 2026 21:34:41 -0400</pubDate>
             <sparkle:version>206</sparkle:version>
