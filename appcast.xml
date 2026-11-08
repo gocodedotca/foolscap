@@ -3,6 +3,24 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.23</title>
+            <pubDate>Sat, 07 Nov 2026 21:34:41 -0400</pubDate>
+            <sparkle:version>206</sparkle:version>
+            <sparkle:shortVersionString>0.9.23</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- **Right-click the path bar to change its size.** Right-click the path bar along the top of an editor pane and choose Small, Medium, Large or Extra Large, the same as Path bar size in Foolscap › Settings… › Editor.
+
+## Fixes
+
+- **Very long pastes are asked about.** Pasting or dropping text longer than any book (more than about 2 MB, or 350,000 words) now asks first, because text that long can slow Foolscap down, and every snapshot and backup keeps a copy of it. More than 20 MB at once isn't pasted; paste it in parts instead. Titles and an entry's other names are now kept to one line of up to 500 characters.
+- **Long scenes save faster.** Saving a scene takes a fraction of the time it did, most of all for a very long one: a whole book pasted into one scene saves around 20 times faster, or two to three times faster with italics or other formatting in it.
+- **Emoji next to formatting are kept.** Where italics, a highlight, a comment or other formatting started or ended in the middle of an emoji, saving replaced the emoji with “�”. The emoji is now kept whole.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.23/Foolscap-0.9.23.zip" length="20355832" type="application/octet-stream" sparkle:edSignature="h3oeefMZ0oEtEisVz2pdso26jApM7YnFKlqM8EkkuHpR6G7O1gdcaZsyBv/EiuChCiuqJRql+sFVGKGusZ9wAA=="/>
+        </item>
+        <item>
             <title>0.9.22</title>
             <pubDate>Sat, 07 Nov 2026 17:51:07 -0400</pubDate>
             <sparkle:version>204</sparkle:version>
