@@ -3,6 +3,19 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.26</title>
+            <pubDate>Mon, 09 Nov 2026 12:12:55 -0400</pubDate>
+            <sparkle:version>215</sparkle:version>
+            <sparkle:shortVersionString>0.9.26</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Fixes
+
+- **Importing a document on a cloud drive no longer freezes Foolscap.** A document on Proton Drive, Google Drive or another cloud drive that wasn’t on your Mac yet made Foolscap stop responding while it downloaded, or for good if the download never finished, so it had to be force quit. That happened in File › New Project from Document…, File › Import…, dragging into the binder, and opening a document from the Finder. Now the document downloads first, with a window and Cancel if it takes more than a moment.
+- **New Project from Document's Open window is its usual size.** The instructions across its top were one long line, which stretched the window to the width of the screen. They're now a short line at the top, with the rest in small type above the buttons. File › Import… had the same problem, and is fixed too.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.26/Foolscap-0.9.26.zip" length="20398235" type="application/octet-stream" sparkle:edSignature="lSVuySX0q3Go9rbdaNpkIFXgbFdsnCO6yK+mpue4gBxMfKY7CCFAKZSrfVPfjuTb3HuxoQ7/BMZMs4UlCyWDDw=="/>
+        </item>
+        <item>
             <title>0.9.25</title>
             <pubDate>Mon, 09 Nov 2026 09:51:36 -0400</pubDate>
             <sparkle:version>211</sparkle:version>
