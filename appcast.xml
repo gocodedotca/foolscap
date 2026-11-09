@@ -3,6 +3,18 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.25</title>
+            <pubDate>Mon, 09 Nov 2026 09:51:36 -0400</pubDate>
+            <sparkle:version>211</sparkle:version>
+            <sparkle:shortVersionString>0.9.25</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- **Foolscap on the iPhone.** Foolscap for iPad now runs on the iPhone too, in the same purchase, and opens the same projects as your Mac through iCloud Drive. “Foolscap on the iPad and iPhone”, under Getting started in Foolscap Help, says what it does and what stays on the Mac.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.25/Foolscap-0.9.25.zip" length="20373616" type="application/octet-stream" sparkle:edSignature="09a5v3qj+evgTvtG5d3uj4zpte9Vc450VXUdKVR1xp3UxkosIQLCOTSrNJ1uVZcOK4Njw97ZDBImStgwELSBAg=="/>
+        </item>
+        <item>
             <title>0.9.24</title>
             <pubDate>Sun, 08 Nov 2026 12:11:15 -0400</pubDate>
             <sparkle:version>208</sparkle:version>
