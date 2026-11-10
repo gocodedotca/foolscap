@@ -3,6 +3,47 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.27</title>
+            <pubDate>Tue, 10 Nov 2026 10:39:04 -0400</pubDate>
+            <sparkle:version>220</sparkle:version>
+            <sparkle:shortVersionString>0.9.27</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Fixes
+
+- **A Mac whose trial has ended keeps edits made on your other devices.** When two devices both changed a project while apart, iCloud keeps both versions, and Foolscap merges them. A Mac whose trial had ended merged them and showed the result, but couldn't save it, so the other device's edits were lost once the project closed. It now saves the merge. You still can't make edits of your own on it.
+- **Details saved by a newer Foolscap are kept.** When an older Foolscap saved a project, it dropped any details it didn't know about, and iCloud then dropped them on every device. From this version on, Foolscap keeps details it doesn't know about. Saving also no longer rewrites the files of items that haven't changed.
+- **What you type in a Story Bible entry or a full-page image stays with it.** If you were typing an entry's other names or its line, or an image's description, and moved on with the header's arrows or the Go menu, what you'd typed went to the next item instead. It now stays with the item you typed it in. A footnote you were writing when you moved on is kept in its own scene too.
+- **A paperback PDF whose title contains "stream" is a proper PDF/X file.** A title such as "Downstream" or "Mainstream" broke the file's details, so KDP and IngramSpark could reject it.
+- **Citations follow the book's language straight away.** After you changed the language on the Title Page, citations stayed in the old language (its "and", dates and "Retrieved from") until you reopened the project.
+- **Word documents are in the book's language.** Exported Word documents were always marked as US English, so Word flagged every word of a French or German manuscript as misspelled. They're now marked with the book's language.
+- **Very large numbers no longer crash Foolscap.** A Day typed with too many digits crashed Foolscap, and once saved, crashed the timeline every time it opened. Huge numbers in a damaged project file or an imported Word or Scrivener file could do the same. Days, goals and word counts are now kept within sensible limits.
+- **Pictures, covers, styles and references on a cloud drive no longer freeze Foolscap.** 0.9.26 fixed this for importing documents. Now a picture you insert or drop into the text, a Story Bible picture, an ebook cover, a citation style or references that aren't on your Mac yet are downloaded first too, with a window and Cancel if it takes more than a moment. So is a project you open from Proton Drive, Google Drive or another cloud drive.
+- **The Welcome no longer waits on a slow iCloud.** On a first launch while offline or with iCloud slow to answer, neither the Welcome nor the New Project window appeared until iCloud did. Foolscap now waits for it for at most three seconds.
+- **A Story Bible entry's name is kept to one line.** A passage pasted into a new entry's Name made an entry with a title of any length. It's now one line of up to 500 characters, as a renamed item's is. Synopses and an entry's line are kept to 10,000 characters.
+- **A full-page image from an imported document is stored once.** A map or other picture on a page of its own in an imported Word document was kept twice in the project, making it larger, until the project was next opened and saved.
+- **A damaged RTF file no longer freezes the import.** An RTF file with broken pictures in it could keep Foolscap busy for a long time while it looked for them. It's now read at once, with any good pictures before the damage.
+- **No blank first page before a book of scenes.** A Reading PDF or print of a manuscript with scenes but no chapters, and a Contents in its front matter, started with an empty page, as the Contents had nothing to list. It now starts with the text.
+- **An untitled chapter is headed the same in print as in the book.** Printing or previewing the first scene of a chapter with no title, or a snapshot of it, headed the chapter "Untitled", where the book leaves its heading empty. They now match.
+- **A save that fails no longer puts your typing at risk.** If saving a project failed, for instance because the disk was full, and an iCloud change from another device came in before the next save, what you'd typed since the last good save could be replaced by the other device's older text. Foolscap now merges against what was really saved, so your typing stays.
+- **Deeply indented lists import within the page.** A list in an imported RTF, OpenDocument or older Word (.doc) file indented very far, or nested more than nine deep, came in at a level that ran past the edge of the text. It now comes in at the ninth level at most, as lists from Word documents already did.
+- **Tall table rows stay within the page in PDFs.** When a table with a tall header ran onto a new page, and its next row was very tall, the row was drawn past the bottom of the text, over the margin where the page number goes. That page now leaves out the repeated header, and the pages after it have it again.
+- **Titles are kept as written in Markdown exports.** A chapter or section title with an underscore or asterisk in it, such as "Part_One_", came out partly in italics in apps that read the exported Markdown, and one ending in "#" lost it. Titles are now written so that they read as you typed them.
+- **Snapshots show cross-references and footnote numbers as the scene does.** A snapshot, or its comparison with the text, showed each cross-reference as its label with a question mark, and numbered its footnotes from 1 wherever the scene was in the book.
+- **A small picture added to a list item stays in the list.** An icon or other small picture put at the start of a list item, among its words, took the item out of the list.
+- **Dragging the selected item to the Trash selects the one next to it,** as Move to Trash does, instead of leaving the trashed item on show.
+- **Changes merged while a project's tab was in the background are told.** When a change from another device was merged while the project's window was a tab behind another, or in the Dock, Foolscap didn't say so, or show which items were changed on both devices.
+- **Replace All says how many it replaced.** A match that ran from the text into a table was counted, though it wasn't replaced.
+- **Your own templates show their outline sooner.** In the New Project window, a template you'd made with many pictures or PDFs in it took a while to show its outline, as Foolscap read every picture first. It now reads only what the outline needs. After you add or remove a template, the outline shown is always the current one.
+- **Stop ends a Word or EPUB export straight away.** Stop on a long Word or EPUB export used to wait for the whole file to be written, then throw it away. It now stops at once.
+- **Long projects stay quick.** Foolscap does less work as you type and move around a long manuscript. The Comments, Bookmarks and Snapshots panels and the timeline no longer refresh while hidden. The format bar and point-of-view menus change only what needs changing. Cross-reference numbers no longer reread every scene. Saving reads only the item details that have changed.
+- **Large reference libraries are quicker.** Searching the References window or the citation picker keeps up as you type, even with thousands of references. Importing thousands of references from a file takes a moment, not seconds.
+- **The citation picker finds a work by its journal or book.** Typing the name of the journal or book a work appeared in found it in the References window but not in Insert › Citation…; both now search the same details.
+- **Printing and exporting no longer hold up the app.** Foolscap now prepares the manuscript for a print, an export, Page Preview or the References and Notes pages in the background, so you can keep working while a long book is laid out. File › Print… lays out the pages before the print panel opens, with a Stop button if that takes a moment, and choosing something else to print in the panel no longer freezes it.
+- **A synopsis typed on a card stays on its lines.** On the corkboard, typing a card's synopsis, especially a new scene's, put the lines closer together than the card's ruled lines. A second line pushed the first up behind the title, and clicking a card whose synopsis ran to more than one line could show only the first. The synopsis now sits on the ruled lines as you type it, with every line in view. An empty card's "Synopsis" sits on the first line too.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.27/Foolscap-0.9.27.zip" length="20545152" type="application/octet-stream" sparkle:edSignature="DMOYkOIPkHtjGuBqWozFPcDa2p7kp6Y4CVCjS2v9atConi8hrDquaoFL+dB2O1an0P9NZqvzTZ0uMejfCJLZAw=="/>
+        </item>
+        <item>
             <title>0.9.26</title>
             <pubDate>Mon, 09 Nov 2026 12:12:55 -0400</pubDate>
             <sparkle:version>215</sparkle:version>
