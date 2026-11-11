@@ -3,6 +3,26 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.29</title>
+            <pubDate>Wed, 11 Nov 2026 16:22:27 -0400</pubDate>
+            <sparkle:version>237</sparkle:version>
+            <sparkle:shortVersionString>0.9.29</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- **Say what things are in each scene.** Alongside its cast and places, a scene can now have **things** from the Story Bible's Things folder: the letter, the ring, the gun in the drawer. Set them in the inspector's new **Things** row, from **Project › Things**, by Control-clicking scenes in the binder, on the corkboard or on the timeline, or by clicking the new cube line on a timeline card. As with the cast, **Add All Mentioned** starts from the things the scene names, and **New Thing…** adds one to the Story Bible and the scene at once. A scene's things show on its corkboard card after its place.
+- **Follow a thing through the story.** On the timeline, Who's Where now has a lane for each thing in a scene, after the characters', saying where it is day by day, such as "Portland, OR → Boston, MA". A thing in two places at the same time is marked with a warning, as a character is. The menu beside Who's Where, now called **Lanes**, shows and hides things' lanes as well as characters'. Timeline cards are a line taller to make room.
+- **Find a thing's scenes.** Once a scene has things, a **Thing** pop-up menu under Search Project lists every scene a thing is in, in book order, even those that never name it. The Mentions tab, on a thing, says how many scenes it's in and marks them with a cube.
+- **Things from Scrivener.** A custom metadata field called Things, Props or Objects comes across as each scene's things, and a top-level Things folder goes into the Story Bible's.
+- **The no-AI-training notice is now on the copyright page,** where publishers put it, straight after the rights, instead of on a page of its own. Turn on **No AI training notice** on the Copyright page; it starts with the standard wording, which you can change, and clearing it brings the standard wording back. A book that already has a No AI Training page keeps it, printed as before: choose it and click **Move to Copyright Page** to make its words the notice. If you use Foolscap on an iPad or iPhone too, update it as well: an older version leaves the notice out when it saves the project.
+
+## Fixes
+
+- **Settings added in a newer version survive an older one.** When a project was saved on a device with an older version of Foolscap, settings that version didn't know about could be left out, and the Mac then lost them too: opening a project on an iPhone a version behind could switch the No AI Training notice off. The Mac now keeps its settings when the other device didn't change any, and this version keeps whatever a newer one adds inside a project's settings and items.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.29/Foolscap-0.9.29.zip" length="20944238" type="application/octet-stream" sparkle:edSignature="GyqgcXaLQI1Cv4QuljLjIPFOV8okO0Vw2ZQwnw0Ns9jrkOb/cKyCziUMBEqB4544F2PZP5XwkzNgdxrMbLf7BQ=="/>
+        </item>
+        <item>
             <title>0.9.28</title>
             <pubDate>Tue, 10 Nov 2026 22:17:54 -0400</pubDate>
             <sparkle:version>232</sparkle:version>
