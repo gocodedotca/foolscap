@@ -3,6 +3,29 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.28</title>
+            <pubDate>Tue, 10 Nov 2026 22:17:54 -0400</pubDate>
+            <sparkle:version>232</sparkle:version>
+            <sparkle:shortVersionString>0.9.28</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- **Say where each scene is set.** A scene can now have places from the Story Bible: one, or several for a scene that moves or a phone call between two cities. Set them in the inspector's new **Where** row, from **Project › Place**, by Control-clicking scenes in the binder, on the corkboard or on the timeline, or by clicking the pin line on a timeline card. The list puts the places the scene mentions first, and **New Place…** adds one to the Story Bible and the scene at once. Choose a chapter to set every scene in it. A scene's place shows on its corkboard card, beside its point of view: "Maren · the Harbour · Day 3".
+- **Say who's in each scene.** A scene's **cast** is the characters who are there, not everyone it mentions, so a character who's only thought of or talked about isn't in it. Set it the same ways, in the **Cast** row or **Project › Cast**. **Add All Mentioned** starts a cast from the characters the scene names, for you to take out anyone who isn't there. A scene's point of view is always in its cast.
+- **A clearer timeline.** Each card now shows its cast, point of view first, and its places, in two short lines you click to change. The pictures and initials of everyone the scene mentioned are gone. The board is quieter: the Set Day button shows only where it's needed, on the chosen card or the one you point at, No Day Yet stays narrow until there's something in it, and the column for a new day appears only while you drag.
+- **Who's Where shows where everyone is, in words.** Each character in a cast has a lane, and in each day's column it names where they are, such as "Portland, OR → Boston, MA", or "No place" for a scene without one. Lanes come only from the casts and places you set, never from names in the text. If a character is in two scenes at the same time of day on the same day, in places with none in common, both are marked with a warning, and the tip says which scene and where.
+- **Find a place's scenes.** Under Search Project, a new pop-up menu beside Point of View lists every scene set in a place, in book order, even those that never name it. **No Place** finds the scenes still to set.
+- **The Mentions tab shows the scenes set in a place,** with a pin, and says how many: "Set here in 12 scenes".
+- **A place is found by its first part.** A place called "Portland, Oregon" or "Boston, MA" is now found in the text as "Portland" or "Boston", without adding that as another name, unless two places or another entry share it.
+- **Scrivener import brings in places.** A custom metadata field called Location, Setting, Place or Places sets each scene's places, matched to the Story Bible's or added to it, and the import sheet says how many scenes were given places.
+
+## Fixes
+
+- **The caret no longer disappears at the end of a scene.** Pressing Return after the last paragraph sometimes left no caret on the new line until you typed a letter. It now shows straight away.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.28/Foolscap-0.9.28.zip" length="20807801" type="application/octet-stream" sparkle:edSignature="vv8K0heIupBXb0Y5aKWteNV2Z02AH1MSp/RqatRPgSs9wRQ4odArFKLCBw+BIrnOgqUyJOdDJewHtdKYpV6HDQ=="/>
+        </item>
+        <item>
             <title>0.9.27</title>
             <pubDate>Tue, 10 Nov 2026 10:39:04 -0400</pubDate>
             <sparkle:version>220</sparkle:version>
