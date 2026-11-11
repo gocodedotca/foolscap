@@ -3,6 +3,18 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.30</title>
+            <pubDate>Wed, 11 Nov 2026 19:54:34 -0400</pubDate>
+            <sparkle:version>239</sparkle:version>
+            <sparkle:shortVersionString>0.9.30</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Fixes
+
+- **Spelling mistakes are underlined as soon as you open a scene.** With Check Spelling While Typing on, Foolscap only marked a misspelled word once you typed in or near it, so a scene you opened, or a project you'd just opened, could show mistakes with no red underline. Each scene is now checked as soon as it's shown, and grammar too if you check it.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.30/Foolscap-0.9.30.zip" length="20945033" type="application/octet-stream" sparkle:edSignature="8vnEHswqez6t9R1rKlTR1u6PNlUyj4Dr0wk+9YuBf83K7s42iMKOKcp3FAjIcS+lyCkch6H11hLrWjDbhRRfCQ=="/>
+        </item>
+        <item>
             <title>0.9.29</title>
             <pubDate>Wed, 11 Nov 2026 16:22:27 -0400</pubDate>
             <sparkle:version>237</sparkle:version>
