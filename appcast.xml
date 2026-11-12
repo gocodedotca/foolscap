@@ -3,6 +3,23 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.33</title>
+            <pubDate>Thu, 12 Nov 2026 16:19:41 -0400</pubDate>
+            <sparkle:version>247</sparkle:version>
+            <sparkle:shortVersionString>0.9.33</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- **Write a scene's synopsis right on its timeline card.** Click the synopsis, or **Add Synopsis** on a chosen card without one, and type, as on the corkboard. The card grows to show all of it as you type. Press Return to keep it, or Esc to leave it as it was. **Edit Synopsis** is also in the card's Control-click menu. Double-clicking a card still opens it beside the timeline.
+
+## Fixes
+
+- **The text no longer jumps when you press Delete at the end of a scene.** Deleting the last letters of a scene, with the end of it at the bottom of the window, made the text leap up or down a few lines at every key. Foolscap was redrawing the scene's first paragraph instead of its last after each one, so the Mac had to work out the height of the whole scene again, and got it wrong.
+- **No more flash of Apple's "not in sync" window with a project open on more than one device.** Foolscap saved the project whenever you moved to another scene or folded a folder, just to remember where you were, and so sent the whole project to iCloud. When two devices did that before each had the other's copy, iCloud kept one aside as a conflict, and macOS could show its own window asking which version to keep before Foolscap had merged them. Where you are is now kept on each Mac, iPad or iPhone as you move about, and goes into the project with the next change you make, so moving about or just reading sends nothing to iCloud. When versions do need merging as a project opens, Foolscap now merges them before the window appears.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.33/Foolscap-0.9.33.zip" length="21022354" type="application/octet-stream" sparkle:edSignature="9ggySfD2TrDnvsvpoKfPGsTa+uTvtter2JHgn0zkWgqWwEagLcCS/0HQCCrU8v8AUzbBmFa2DVmci5gGs0IWDQ=="/>
+        </item>
+        <item>
             <title>0.9.32</title>
             <pubDate>Thu, 12 Nov 2026 10:34:17 -0400</pubDate>
             <sparkle:version>244</sparkle:version>
