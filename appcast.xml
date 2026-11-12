@@ -3,6 +3,18 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.31</title>
+            <pubDate>Wed, 11 Nov 2026 22:03:28 -0400</pubDate>
+            <sparkle:version>242</sparkle:version>
+            <sparkle:shortVersionString>0.9.31</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Fixes
+
+- **Spelling underlines stay put as you type.** In a project with a language chosen in Edit › Spelling and Grammar › Spelling Language, typing in any paragraph but the first took away the red underlines already in that paragraph, and a word you misspelled there wasn't underlined either. Check Spelling Now still found them. They're now underlined as you type, wherever you are in the scene.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.31/Foolscap-0.9.31.zip" length="20944959" type="application/octet-stream" sparkle:edSignature="ZjdEjvTMiOL9Bt+lhIv9WrHzwvnFvQd3LxkKWvXefAgjaE6GIEpTTTHfM9wj+2wTL45HvSmvNKN93Jul8iUWDQ=="/>
+        </item>
+        <item>
             <title>0.9.30</title>
             <pubDate>Wed, 11 Nov 2026 19:54:34 -0400</pubDate>
             <sparkle:version>239</sparkle:version>
