@@ -3,6 +3,22 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.32</title>
+            <pubDate>Thu, 12 Nov 2026 10:34:17 -0400</pubDate>
+            <sparkle:version>244</sparkle:version>
+            <sparkle:shortVersionString>0.9.32</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- **Who’s Where is easier to read.** Under the timeline, each character and thing now has a row with its name on the same line as its places, and the days’ columns run on down from the cards, so it’s plain what lines up with what. Each scene is a pill with its places, and an arrow appears only when someone moves: two scenes in Boston no longer read “Boston → Boston”. Hold the pointer over a pill to outline its card. The strip says what the grid is for, and its menu of rows is named for what’s in it: Characters, Things, or Characters & Things.
+
+## Fixes
+
+- **Closing a pane opened from the timeline takes one click.** After double-clicking a card on the timeline, clicking the X on the scene's pane brought in the format bar instead, moving everything down so that the click opened the highlight menu, and the X needed a second click. The format bar now shows as soon as a scene is on show beside the timeline, so nothing moves when you click from one pane to the other.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.32/Foolscap-0.9.32.zip" length="20965865" type="application/octet-stream" sparkle:edSignature="wZUyZQfVDUOfSTrNgXZleOmZ6TtJg3URiSLuLnNcl3Bb1C/kuE4Gm146pMqPRMzzLw2pFionN6vt1+Jt/r3DAg=="/>
+        </item>
+        <item>
             <title>0.9.31</title>
             <pubDate>Wed, 11 Nov 2026 22:03:28 -0400</pubDate>
             <sparkle:version>242</sparkle:version>
