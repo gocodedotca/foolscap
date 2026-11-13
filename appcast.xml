@@ -3,6 +3,18 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.34</title>
+            <pubDate>Thu, 12 Nov 2026 22:17:53 -0400</pubDate>
+            <sparkle:version>249</sparkle:version>
+            <sparkle:shortVersionString>0.9.34</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Fixes
+
+- **An old copy of a project can no longer undo newer writing.** When an iPad or iPhone had a project open and asleep for a while, it could wake on its own and save the copy it had opened earlier, without first taking in what you'd written on your Mac since. The Mac then took that copy in as if it held new changes, which put back older scenes and removed newer ones. Foolscap now sees that every part of such a copy is older than its own and keeps the newer writing, then sends that back to iCloud. On an iPad or iPhone, Foolscap also checks for anything iCloud brought while it was asleep and takes it in before saving. If you lost writing this way, **File › Backups › Restore from Backup…** has your project as it was every 30 minutes while you wrote.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.34/Foolscap-0.9.34.zip" length="21042295" type="application/octet-stream" sparkle:edSignature="zJQBR4V0u8juf1sxlQnyVK314ImMYCyPwNJDuTXWAJ4RjmV6rteejGzL7dUR4g0mkYpHdTWivP0zKv7hOUcqDQ=="/>
+        </item>
+        <item>
             <title>0.9.33</title>
             <pubDate>Thu, 12 Nov 2026 16:19:41 -0400</pubDate>
             <sparkle:version>247</sparkle:version>
