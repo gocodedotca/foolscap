@@ -3,6 +3,24 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.35</title>
+            <pubDate>Fri, 13 Nov 2026 13:48:49 -0400</pubDate>
+            <sparkle:version>253</sparkle:version>
+            <sparkle:shortVersionString>0.9.35</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- **Share a scene, a chapter or the book as a PDF or Word document.** File › Share used to send the project itself, which few people you share with can open. Now, whichever way you send it (AirDrop, Mail, Messages and the rest), a sheet asks what to share: the scene you're writing, the chapter it's in, or the whole manuscript, each with its length. It also asks what to send it as: a PDF reading copy, or a Word document in manuscript format, with your comments if you like. The file is made as Export makes it and goes straight to the person. Mail is in the list now too. Right-click a chapter or scene in the binder for Share with that item chosen, or add a Share button to the toolbar with View › Customize Toolbar…. To send the project itself, click Foolscap Project… in the sheet.
+- **Part of the book as a reading copy is just that part.** A chapter or scene exported as a Reading Copy, or shared as a PDF, opens with a line naming the book, "From *The Crossing* by Ann Writer", instead of the title page, copyright page, contents and back matter.
+- **Who's Where is easier to read on a busy day.** On the timeline, a character in six scenes in one day had six pills squeezed into the day's column, each too narrow to say more than "…". Now scenes one after another in the same place share a pill with a count, "Boston ×5", so every arrow is a move. If a day's pills still don't fit, the first and last stay and those between fold into one, "Portland → +4 → Boston"; hold the pointer over it to see each place. Clicking a pill chooses all its scenes, and pointing at it outlines all their cards.
+
+## Fixes
+
+- **Words in the project dictionary stay unmarked.** macOS's spelling service, which Foolscap tells which words to leave alone, restarts now and then, and forgets them when it does. With a project open across a restart, the words you'd added to the project dictionary, and the Story Bible's names, were underlined as misspelled again, though Edit › Spelling and Grammar › Project Dictionary… still listed them. Foolscap now notices and tells the spelling service again.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.35/Foolscap-0.9.35.zip" length="21157448" type="application/octet-stream" sparkle:edSignature="EwUfS2TdLc5cDbK/aBQPNHoxNr1gXqg9kv7JmszIpGqLSFkdT96EQU4IAxpTnFsK2G8v+DW3BCQRSJHCCvwCBg=="/>
+        </item>
+        <item>
             <title>0.9.34</title>
             <pubDate>Thu, 12 Nov 2026 22:17:53 -0400</pubDate>
             <sparkle:version>249</sparkle:version>
