@@ -3,6 +3,18 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.36</title>
+            <pubDate>Sat, 14 Nov 2026 08:50:49 -0400</pubDate>
+            <sparkle:version>256</sparkle:version>
+            <sparkle:shortVersionString>0.9.36</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Fixes
+
+- **Deleting a search word keeps you in the search field.** Backspacing over everything typed in Search Project moved the cursor to the binder, so you had to click back in to try another word. Now the binder comes back but the cursor stays in the field. The field's clear button (✕) still puts you back in the binder.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.36/Foolscap-0.9.36.zip" length="21159872" type="application/octet-stream" sparkle:edSignature="vNFbNcUOT76qsB1bCnEEZ5xOZ7K/Xwl+I6e+CL4h6U3eB/8m1vp3f8RPazrOCO5yjVXrRNCm89jjsx8WsvsGBg=="/>
+        </item>
+        <item>
             <title>0.9.35</title>
             <pubDate>Fri, 13 Nov 2026 13:48:49 -0400</pubDate>
             <sparkle:version>253</sparkle:version>
