@@ -3,6 +3,19 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.38</title>
+            <pubDate>Sun, 15 Nov 2026 18:18:05 -0400</pubDate>
+            <sparkle:version>261</sparkle:version>
+            <sparkle:shortVersionString>0.9.38</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- **Check the whole book's spelling at once.** Choose **Edit › Spelling and Grammar › Check Spelling in Project** (⌥⌘;) to list every misspelled word in the book in the sidebar. Each word appears once, however it's capitalized, with how many times it's written and your Mac's best guess at the right spelling. Open a word to see each place it's written, and click a place to go there. From a word's menu you can change every place at once (each keeps its capitals, and ⌘Z undoes it), add it to the project dictionary or the Story Bible, ignore it, or teach it to your Mac. The list matches the red underlines, project dictionary, Story Bible names and spelling language included, and keeps up as you type.
+- **Show Spelling and Grammar is gone from the Edit menu.** The new list does its job for the whole book. **Check Document Now** (⌘;) still steps through misspelled words one at a time. To open Apple's Spelling panel, right-click in the text and choose **Spelling and Grammar › Show Spelling and Grammar**.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.38/Foolscap-0.9.38.zip" length="21310256" type="application/octet-stream" sparkle:edSignature="LL397nggnrhYErIbpSjrGmi6z/SHeDQ5tWG6AR368NaUQFXz09aG+xcKKSivr++HIqzqo+nU2M+1towOEDunBQ=="/>
+        </item>
+        <item>
             <title>0.9.37</title>
             <pubDate>Sun, 15 Nov 2026 13:04:36 -0400</pubDate>
             <sparkle:version>259</sparkle:version>
