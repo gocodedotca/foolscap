@@ -3,6 +3,24 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.39</title>
+            <pubDate>Tue, 17 Nov 2026 14:29:54 -0400</pubDate>
+            <sparkle:version>266</sparkle:version>
+            <sparkle:shortVersionString>0.9.39</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- **Rename a scene in the inspector.** The name at the top of the inspector's **Synopsis & Notes** tab can now be edited: click it, type the new name and press Return (which goes on to the synopsis), or press Escape to leave it as it was. Renaming in the binder works as before.
+
+## Fixes
+
+- **Find in a scene marked the wrong words.** After moving from one scene to another, ⌘F could go on searching the scene shown before, counting its matches and marking them at the same places in the new one, over words that didn't match at all. Find now searches the scene in front of you.
+- **Search Project results show in yellow straight away.** Clicking a match in the text used to select it, which covered the search's yellow highlight with the selection's color until you clicked in the text. The text now scrolls to the match and flashes it, with the insertion point just before it, so it stays yellow.
+- **Going to a match far down a scene shows it.** Clicking a Search Project result near the end of a long scene could leave the words just out of sight: the text scrolled to where they were about to be, and they moved below the window a moment later. The text now scrolls them into the middle of the window and keeps them there. Going to a bookmark, comment or story bible mention does the same.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.39/Foolscap-0.9.39.zip" length="21325359" type="application/octet-stream" sparkle:edSignature="YMbi/dEZLkPgAp0vUSmnpSkN2iqjqm2m5EejqFfLQ4lhRVd0R9NKL4NznjHojpExcUWz8VrK/Gi8OFTuKeYVBQ=="/>
+        </item>
+        <item>
             <title>0.9.38</title>
             <pubDate>Sun, 15 Nov 2026 18:18:05 -0400</pubDate>
             <sparkle:version>261</sparkle:version>
