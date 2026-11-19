@@ -3,6 +3,23 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.41</title>
+            <pubDate>Thu, 19 Nov 2026 17:17:08 -0400</pubDate>
+            <sparkle:version>270</sparkle:version>
+            <sparkle:shortVersionString>0.9.41</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- **A wider Settings window.** All its tabs show at once; License no longer hides behind ».
+
+## Fixes
+
+- **A cover or picture could vanish after saving.** An image not yet shown when the project was saved, such as the cover, came back blank until the project was opened again, and an ebook made meanwhile could leave it out. Nothing was lost from the project itself.
+- **Export says when the cover’s picture is missing.** An ebook whose Cover can’t find its picture was made without one, with no warning. The Export sheet now says so before you export.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.41/Foolscap-0.9.41.zip" length="21347337" type="application/octet-stream" sparkle:edSignature="rjv0eAXTO+UjKE9ChWjN2Lo3EHhC+ePhSpuuvT7Ra/9ObREhMre5l3gN4tZwe6e5lgCbydhSOwUk6udE0VNuBw=="/>
+        </item>
+        <item>
             <title>0.9.40</title>
             <pubDate>Thu, 19 Nov 2026 09:07:19 -0400</pubDate>
             <sparkle:version>268</sparkle:version>
