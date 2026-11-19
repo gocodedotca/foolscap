@@ -3,6 +3,26 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.40</title>
+            <pubDate>Thu, 19 Nov 2026 09:07:19 -0400</pubDate>
+            <sparkle:version>268</sparkle:version>
+            <sparkle:shortVersionString>0.9.40</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- **Previous and Next sit with Back and Forward.** The up and down arrows that go to the item before or after in the binder (⌥⌘↑ and ⌥⌘↓) have moved from the right-hand end of the bar above the text to its left, just after Back and Forward, so all the ways of moving are together.
+- **⌘G goes through Search Project's results.** With a project search showing, Find Next (⌘G) and Find Previous (⇧⌘G) go to the next or previous match, from one scene into the next, from the search field or the text. With a scene's find bar open, they go through that scene's matches as before.
+
+## Fixes
+
+- **⌘G in the find bar.** With the keyboard in a scene's find bar, Find Next and Find Previous did nothing. They now go to the next or previous match.
+- **Find in a scene goes to a match as you type.** When none of what you'd typed in the find bar was in view, nothing seemed to happen until you'd stopped typing for a second, so Find could look slow or broken. The text now goes to the next match with each letter, and marks it.
+- **A misspelling left behind gets its underline.** A misspelled word you'd just typed or corrected stayed unmarked after you moved on, until you next edited its paragraph. It's now underlined as soon as you leave it.
+- **Less spelling work while you type.** In a project where a word appeared in two cases, as in a Story Bible name and the project dictionary, Foolscap thought macOS had forgotten the dictionary and checked every open text again from top to bottom each time you paused.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.40/Foolscap-0.9.40.zip" length="21345341" type="application/octet-stream" sparkle:edSignature="NSPTS4eRbkLpprlByB2FM/aNm6j1Y88sp2qh2j7QpESfQRc+nClTD95WbL9OXCHOqnbxZyjdu0nog7sljjRXBA=="/>
+        </item>
+        <item>
             <title>0.9.39</title>
             <pubDate>Tue, 17 Nov 2026 14:29:54 -0400</pubDate>
             <sparkle:version>266</sparkle:version>
