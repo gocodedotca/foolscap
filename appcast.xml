@@ -3,6 +3,19 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.42</title>
+            <pubDate>Fri, 20 Nov 2026 16:41:40 -0400</pubDate>
+            <sparkle:version>273</sparkle:version>
+            <sparkle:shortVersionString>0.9.42</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- **No Day Yet stays in view on the timeline.** While it holds scenes, the No Day Yet column now stays at the left as you scroll across the days, so you can drag a card straight onto a day far along without losing sight of it.
+- **Tables in notes.** The format bar's table button and **Insert › Table…** now work in notes and Story Bible entries too, not only in scenes.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.42/Foolscap-0.9.42.zip" length="21349907" type="application/octet-stream" sparkle:edSignature="mcyab7bOPm9lkeiAwoW8Ml9oOc+Q+Uk4K1hS5R1jyGtmEgwFlXWNVPL6KPZXUMi67QaJcyzvVHRSw+racUczDA=="/>
+        </item>
+        <item>
             <title>0.9.41</title>
             <pubDate>Thu, 19 Nov 2026 17:17:08 -0400</pubDate>
             <sparkle:version>270</sparkle:version>
