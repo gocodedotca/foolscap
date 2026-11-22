@@ -3,6 +3,22 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.43</title>
+            <pubDate>Sun, 22 Nov 2026 12:08:15 -0400</pubDate>
+            <sparkle:version>277</sparkle:version>
+            <sparkle:shortVersionString>0.9.43</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- **Pasted Markdown comes in formatted.** Text written in Markdown, copied from a Markdown editor or a chat app, now arrives with its headings, bold and italics, quotes, lists and tables, instead of the asterisks and hashes that mark them. Foolscap does this only when the text is clearly Markdown, so ordinary text pastes as before, and **Edit › Paste and Match Style** pastes Markdown with its marks.
+
+## Fixes
+
+- **Fewer needless iCloud saves with a project open on two devices.** When a daily goal is set to meet a deadline, a device taking in another's writing could decide it had changes of its own to save, though nothing had changed there, and the other device then saved in turn. A project you only opened to read could start uploading to iCloud, and if a newer copy was arriving at that moment, iCloud could get stuck between the two. Now a device saves only what really changed, and both devices agree on the day's goal.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.43/Foolscap-0.9.43.zip" length="21389086" type="application/octet-stream" sparkle:edSignature="1mu3v0/XjeEtXffHn1O75Y4HXqaK6GmDyvFEn4y9AuzoiEsgzX6fobeJPEu1csqahamvifrR+/cc2jmSHle8Dw=="/>
+        </item>
+        <item>
             <title>0.9.42</title>
             <pubDate>Fri, 20 Nov 2026 16:41:40 -0400</pubDate>
             <sparkle:version>273</sparkle:version>
