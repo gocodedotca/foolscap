@@ -3,6 +3,21 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.44</title>
+            <pubDate>Mon, 23 Nov 2026 16:57:22 -0400</pubDate>
+            <sparkle:version>281</sparkle:version>
+            <sparkle:shortVersionString>0.9.44</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- **Places, characters and things are easier to find when choosing them for a scene.** The lists for a scene's places, cast and things are now in alphabetical order, and the ones the scene mentions, shown at the top, are in the full list below as well, so each is always where you'd look for it.
+- **One way to set the text size under Aa.** The format bar's **Aa** pop-over had both a size and a zoom, which did the same thing. It now has the size alone. **View › Zoom In** and **Zoom Out** (⌘+ and ⌘−) work as before, and while the text is zoomed, **Aa** says so and offers **Actual Size**.
+- **A project has its own quotation marks.** **Edit › Substitutions › Quotation Marks** sets them: **Automatic**, **“Double”**, **‘Single’** or **"Straight"**. Text pasted from another app now takes the project's marks, so straight quotation marks and apostrophes come in curly in a book written with curly ones, and are left alone in one written with straight ones. Marks that are already curly, and text copied within Foolscap, aren't changed. Typing follows the choice too.
+- **Convert Quotation Marks.** **Edit › Substitutions › Quotation Marks › Convert Quotation Marks…** puts the whole manuscript in one style: “double” marks with ‘single’ inside, the other way round, or straight. It says how many marks would change first, each item that changes gets a snapshot, and ⌘Z undoes it all.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.44/Foolscap-0.9.44.zip" length="21473253" type="application/octet-stream" sparkle:edSignature="my04EH1QBzA3qJ989W8VEEcDRfb0hK/1e7LXFlVUva4qjzOuRhRd9okRYQYPyC9OwezB6n5tSF3EtdXAh/TVAw=="/>
+        </item>
+        <item>
             <title>0.9.43</title>
             <pubDate>Sun, 22 Nov 2026 12:08:15 -0400</pubDate>
             <sparkle:version>277</sparkle:version>
