@@ -3,6 +3,20 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.46</title>
+            <pubDate>Tue, 24 Nov 2026 16:21:42 -0400</pubDate>
+            <sparkle:version>289</sparkle:version>
+            <sparkle:shortVersionString>0.9.46</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- **Stray "⋯" buttons in the binder.** After scrolling, several rows could keep showing their "⋯" button after the pointer had left them. Only the row under the pointer shows it now.
+- **Places in Who's Where.** Under the timeline, each place now has a row of its own, after the characters, showing who's there in each scene, day by day. A place that holds others, like Santiago, includes their scenes. Hide any of them from the panel at the right of the Who's Where strip.
+- **Choosing Who's Where's rows.** The button at the right of the Who's Where strip now opens a panel instead of a long menu: characters, places and things in columns side by side, with **All** and **None** for each, places nested under the places that hold them, and a filter when there are many. It stays open while you tick and untick.
+- **A freeze while iCloud syncs.** Foolscap could stop responding when you saved just as iCloud was uploading the project, and had to be forced to quit. It no longer holds on to the project while iCloud reads it, and no longer reads the whole project back after each of its own saves.]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.46/Foolscap-0.9.46.zip" length="21599008" type="application/octet-stream" sparkle:edSignature="b1sUBICNZ5UaDWdC1W1Fpw+d4zJfHYeq9cCJFDVtYHGJuVBciHRH43bDtQIDHUkOIAt515Rk03HGka/gs+jkBw=="/>
+        </item>
+        <item>
             <title>0.9.45</title>
             <pubDate>Tue, 24 Nov 2026 12:21:24 -0400</pubDate>
             <sparkle:version>286</sparkle:version>
