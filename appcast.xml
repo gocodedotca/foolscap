@@ -3,6 +3,26 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.45</title>
+            <pubDate>Tue, 24 Nov 2026 12:21:24 -0400</pubDate>
+            <sparkle:version>286</sparkle:version>
+            <sparkle:shortVersionString>0.9.45</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- **A paragraph can go without its indent.** **Format › No Indent** (⌥⌘8), also in the format bar's style menu, makes a paragraph body text whose first line starts at the margin, for the line after a letter, a verse or a jump in time. Return after it starts an ordinary Body paragraph. Print, PDF, Word and ebooks set it the same way.
+- **Places inside places.** A Story Bible entry can now hold other entries: Santiago holding Renca and Providencia, or a house holding its rooms. Drag a place onto another in the binder, or choose **Project › Move › Into “Santiago”** (⌃⌘→). A scene set in Renca is in Santiago too: finding Santiago's scenes lists it, and on the timeline Renca and Santiago at the same time aren't two places at once.
+- **Convert a folder to a place.** A Story Bible folder holding entries becomes an entry holding them, with its name, synopsis, notes and bookmarks: **Project › Convert to Place** (or Convert to Character, Thing or Entry, for where it is), also in the binder's Control-click menu.
+- **Scrivener places holding places.** In Characters, Places and Things, a Scrivener document with documents inside it now comes across as an entry holding entries, not a folder.
+- **Cards show who, where and what in full.** A corkboard card with a point of view, cast, places or things now shows them on a line of their own above the status, each after a small symbol, and the cast is on cards for the first time. The status, day and word count stay on the bottom line instead of being squeezed out.
+- **Folders inside Characters, Places and Things.** A folder in the Story Bible or the Notes now offers **New Folder Inside**, and the Story Bible's **+** has **New Folder in Characters** (and Places and Things), for a Minor Characters folder and the like. Its entries are still characters.
+- **No status for Story Bible entries.** Status is how far along writing is, so entries no longer show or offer one. Any status already set is kept, unseen.
+- **Characters, Places and Things stay put.** Foolscap knows these folders by name, so they can no longer be renamed, copied, moved into another folder or trashed, which would have quietly stopped their entries counting.
+- **Projects saved by this version need this version.** The new style is stored in the project, so earlier versions of Foolscap, on the Mac, iPad and iPhone, won't open a project once this one has saved it. Update all your devices before going on with a book.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.45/Foolscap-0.9.45.zip" length="21543039" type="application/octet-stream" sparkle:edSignature="8pNlDLR69MXw6pHq7n8ynAkw5G30ok9OzPTjzT4f5RFfjOZkkqtqKg2DLTnT6exJlwE4423w7zn5//lMtAnSCQ=="/>
+        </item>
+        <item>
             <title>0.9.44</title>
             <pubDate>Mon, 23 Nov 2026 16:57:22 -0400</pubDate>
             <sparkle:version>281</sparkle:version>
