@@ -3,6 +3,20 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.47</title>
+            <pubDate>Wed, 25 Nov 2026 11:09:39 -0400</pubDate>
+            <sparkle:version>291</sparkle:version>
+            <sparkle:shortVersionString>0.9.47</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- **Book Shape by place.** Book Shape can now color each scene by where it's set: choose **Place** from **Color by**. Scenes take the color of the outermost place holding theirs, so a scene in Renca is colored as Santiago, and you can see the book move from city to city. Under the chart, each place has its scenes and share of the words.
+- **Book Shape's None counts too.** Coloring by Point of View or Place, the gray **None** key now says how many scenes have none and their share of the words, as the others do.
+- **Status in the inspector.** The inspector's Synopsis & Notes tab now has a **Status** pop-up menu under the synopsis, so you can set a scene's status while Book Shape or the timeline is on show: click a bar, choose its status, and see it change color. With several scenes chosen, it sets them all.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.47/Foolscap-0.9.47.zip" length="21631381" type="application/octet-stream" sparkle:edSignature="46mVdESz+vw9fuclrt32RxaGmPjZYg9+HyaQoow2ahPxagPNzlef7Er5JayylRSIgORMRJvZsSBAI1shLrj1BQ=="/>
+        </item>
+        <item>
             <title>0.9.46</title>
             <pubDate>Tue, 24 Nov 2026 16:21:42 -0400</pubDate>
             <sparkle:version>289</sparkle:version>
