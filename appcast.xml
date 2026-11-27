@@ -3,6 +3,24 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.48</title>
+            <pubDate>Thu, 26 Nov 2026 20:29:07 -0400</pubDate>
+            <sparkle:version>295</sparkle:version>
+            <sparkle:shortVersionString>0.9.48</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- **Strikethrough.** **Format › Strikethrough** (⇧⌘X), also a button in the format bar beside Underline and in a footnote's pop-over, strikes through the selected words: in scenes, notes and Story Bible entries alike. Print, PDF, Word, RTF and ebooks keep it, and Markdown writes it as `~~words~~`. Strikethrough in Word, RTF and Scrivener documents now comes in when you import them, as does `~~words~~` in Markdown you import or paste. Update Foolscap on every Mac, iPad and iPhone you use before striking anything through in a project you share between them: an older version shows the strikethrough as brackets and loses it if it saves that text.
+
+- **Replacing the Cover.** A project now keeps only the cover in use. Before, a cover you replaced stayed in the project file, and in a project shared through iCloud it stayed for good, each device giving it back to the other. Now it's gone once you close the project (Undo brings it back until then), and so is any other picture nothing in the project uses any more. Before replacing or removing a cover that would be lost, Foolscap asks, and offers **Save Current Cover…** to keep a copy. A new **Save Cover…** button on the Cover saves a copy of it at any time.
+
+## Fixes
+
+- **Point of View's character pop-up.** Now and then, choosing 1st Person or 3rd Person Limited in the inspector left the character pop-up beside it not opening when clicked, until you went to another scene and back. It now waits until the first pop-up has closed before showing the second.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.48/Foolscap-0.9.48.zip" length="21747021" type="application/octet-stream" sparkle:edSignature="M2pYONLj+bPwJgSfrSxn/Is2fdf3gO3QamEUzr5LeZp7268a+Yeelx6jHLzZU6btj2xzdUS0H3gng0jyAe7BBA=="/>
+        </item>
+        <item>
             <title>0.9.47</title>
             <pubDate>Wed, 25 Nov 2026 11:09:39 -0400</pubDate>
             <sparkle:version>291</sparkle:version>
