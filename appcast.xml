@@ -3,6 +3,24 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.49</title>
+            <pubDate>Fri, 27 Nov 2026 15:30:20 -0400</pubDate>
+            <sparkle:version>308</sparkle:version>
+            <sparkle:shortVersionString>0.9.49</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- **A chapter as one text.** Read a chapter straight through, its scenes one after another, and write in any of them as you go. Choose a chapter, then click **Chapter** at the right of the bar above the text (or **View › Show As › Chapter**, ⌃⌥⌘2); **Scene** (⌃⌥⌘1) shows the scene you're in alone, and **Cards** (⌃⌥⌘3) the corkboard. Each scene's title stands above it: click it to write there, double-click to open the scene alone, or Control-click for its menu, and **View › Show Scene Titles** hides them. The arrow keys run from one scene into the next, ⌘F and Replace All search every scene shown, and the inspector, format bar and word count follow the scene you're typing in. It works for a part, several items chosen together, or the whole book too, and each pane remembers its choice and where you were. It's on the Mac for now. See **Help › A chapter as one text**.
+- **Snapshots keep comments and bookmarks.** A snapshot now keeps the comments and bookmarks on its words, with what each comment said, and shows them when you look at it. **Restore** keeps them too: comments and bookmarks you've added since stay on any words the snapshot also has, the snapshot's own come back where they were, and Foolscap tells you if any were on words the snapshot doesn't have. Before, restoring a snapshot took every comment and bookmark off the scene. Snapshots taken with earlier versions have none of their own, but restoring one still keeps the ones you have. An older version of Foolscap on another Mac, iPad or iPhone shows these snapshots without their comments, and drops them if it saves the project, so update Foolscap everywhere you use it.
+
+## Fixes
+
+- **Marks where words were cut.** When **Revise › Changes** or **Show Changes in Text** marks what you've changed, the mark where words were cut was so small, and in changes since a snapshot so faint, that it looked like the insertion point. It's now larger and easier to click, and solid gray for changes since a snapshot.
+- **Your place after Focus Mode.** Leaving Focus Mode could scroll the text a screen or so away from where you were reading as the bars came back. The line at the top now stays there.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.49/Foolscap-0.9.49.zip" length="22075289" type="application/octet-stream" sparkle:edSignature="UGrZXO5LcjXW3z8Gp0OlFr2me8aIc8UdwvjCeI3T+OrsrqgiVUOGRedqvEQOKZw1GpYcNkaa2XmKUY8+7MuCBg=="/>
+        </item>
+        <item>
             <title>0.9.48</title>
             <pubDate>Thu, 26 Nov 2026 20:29:07 -0400</pubDate>
             <sparkle:version>295</sparkle:version>
