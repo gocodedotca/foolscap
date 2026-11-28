@@ -3,6 +3,31 @@
     <channel>
         <title>Foolscap</title>
         <item>
+            <title>0.9.50</title>
+            <pubDate>Sat, 28 Nov 2026 12:32:09 -0400</pubDate>
+            <sparkle:version>320</sparkle:version>
+            <sparkle:shortVersionString>0.9.50</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- **An outline.** A fourth way to see a chapter, a part or the whole book: click **Outline** at the right of the bar above the text, or choose **View › Show As › Outline** (⌃⌥⌘4). Each scene and folder has a row, with its synopsis under its title (or its opening words, if it has none), and folders fold open and shut. Double-click a row, or press ⌘↓, to open it. Like Chapter and Cards, the choice stays with the pane, and Foolscap remembers it.
+- **The outline's columns.** Beside each title are its status, words, progress toward its goal and point of view. Control-click the column headings, or choose **View › Outline Columns**, for others: Goal, Cast, Places, Things, Day, Comments, and, once you've started a revision pass, Revision: the words added and cut since it began. A chapter's row adds up its scenes' words, and shows in gray what all of them share. Drag a heading to move its column, or its edge to resize it; Foolscap remembers them on each Mac, with one set for the Manuscript, one for the Notes and one for the Story Bible. Turn off **Show Synopses** in that menu for one line a row.
+- **Changing things in the outline.** Press Return, or click the title of the row you've chosen, to rename it; Tab goes on to its synopsis and then to the next row, so a chapter's plan can be typed without the mouse. Click a Status, Point of View, Cast, Places, Things or Day cell to change it, or a Goal cell to type a number; with several rows chosen, the change goes to them all. Control-click rows for the cards' menu, with Day, Expand and Collapse. Everything can be undone.
+- **Moving and adding in the outline.** Drag rows to reorder them, into a chapter, or to and from the binder. While the outline has the keyboard, Project › Move (⌃⌘ and the arrows), New Scene, New Chapter, Duplicate and Move to Trash (⌘Delete) work on the rows chosen, not on the binder's choice; a new scene's title is ready to type. View › Expand All and Collapse All open or fold the whole outline, and what's folded is remembered on each Mac. The outline follows changes made in the binder, the other pane or on another device, keeping the rows chosen and the place. To see the whole book's outline, cards or text, click **Manuscript** in the bar above it; clicking Story Bible or Notes there shows all of that section.
+- **Sorting the outline.** Click a column's heading to sort the rows by it, within each folder: each chapter's scenes, and the chapters themselves, by words, status, day or any other column. Click again to turn it around. It's only a way of looking: a bar above the rows says how they're sorted, and Binder Order puts them back. Dragging and Project › Move are off while sorted, so nothing moves by accident.
+- **Searching with the outline shown.** While you search the project, the words found are highlighted in the outline's titles, synopses and opening words, and a match in a row's title or synopsis chooses that row rather than opening the scene alone. A match in the text still opens the scene. With the editor split, choosing a row shows it in the other pane.
+- **The outline with VoiceOver, and a long book.** Each row is read with its title and synopsis, a chapter says how many scenes it holds, and each cell with its column's name; VO-Space on a Status, Point of View, Cast, Places, Things, Day or Goal cell changes it, as a click does. Even a whole book of half a million words shows as an outline in a moment and scrolls smoothly.
+- **Adding in the outline, and writing a synopsis there.** Under the outline are **New Scene** and, for the whole book, **New Chapter**, as under the cards. They, ⌥⌘N and ⇧⌘N add after the row chosen, title ready to type, without opening the binder, wherever the keyboard is. A row with no synopsis and no words shows **Synopsis** in gray: click it to write one, so a plan can be typed straight into the outline.
+- **Printing and exporting the outline.** With the outline shown, File › Print and Page Preview offer **This Outline**: what you see, as a table under each chapter's title, with the columns and synopses shown. File › Export To › Outline… saves it as CSV, for a spreadsheet, or as a Word document of tables.
+
+## Fixes
+
+- **Headings over tables.** A heading no longer ends a page when a table starts the next; it goes over with the table.
+- **The bar above a narrow pane.** With the editor split, the name of what's shown could run underneath **Scene | Chapter | Cards**. It now stops short of them, and in a narrow pane they show as symbols, each named when you hold the pointer over it.
+]]></description>
+            <enclosure url="https://github.com/gocodedotca/foolscap/releases/download/v0.9.50/Foolscap-0.9.50.zip" length="22404638" type="application/octet-stream" sparkle:edSignature="B1b74k2v5H0FmMGWrKyaETYHTI/oHfWQu58LetZbN9RbVsHBb+qciISDoWqwhRNcPDIx+AFGu01KajNdKwLKBg=="/>
+        </item>
+        <item>
             <title>0.9.49</title>
             <pubDate>Fri, 27 Nov 2026 15:30:20 -0400</pubDate>
             <sparkle:version>308</sparkle:version>
